@@ -1,0 +1,844 @@
+[
+    {
+        "name": "Victory",
+        "type": "consumable",
+        "img": "images/icons/blank.png",
+        "disabled_img": "images/icons/blank.png",
+        "codes": "victory"
+    },
+    {
+        "name": "Maverick Medal",
+        "type": "consumable",
+        "img": "images/icons/maverick.png",
+        "disabled_img": "images/icons/maverick_gray.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 32,
+        "overlay_background": "#A0000000",
+        "codes": "maverick_medal"
+    },
+
+    {
+        "name": "Blank",
+        "type": "toggle",
+        "img": "images/icons/blank.png",
+        "disabled_img": "images/icons/blank.png",
+        "codes": "blank"
+    },
+
+    {
+        "name": "Wheel Gator Access Codes",
+        "type": "toggle",
+        "codes": "stage_wheel_gator"
+    },
+    {
+        "name": "Bubble Crab Access Codes",
+        "type": "toggle",
+        "codes": "stage_bubble_crab"
+    },
+    {
+        "name": "Flame Stag Access Codes",
+        "type": "toggle",
+        "codes": "stage_flame_stag"
+    },
+    {
+        "name": "Morph Moth Access Codes",
+        "type": "toggle",
+        "codes": "stage_morph_moth"
+    },
+    {
+        "name": "Magna Centipede Access Codes",
+        "type": "toggle",
+        "codes": "stage_magna_centipede"
+    },
+    {
+        "name": "Crystal Snail Access Codes",
+        "type": "toggle",
+        "codes": "stage_crystal_snail"
+    },
+    {
+        "name": "Overdrive Ostrich Access Codes",
+        "type": "toggle",
+        "codes": "stage_overdrive_ostrich"
+    },
+    {
+        "name": "Wire Sponge Access Codes",
+        "type": "toggle",
+        "codes": "stage_wire_sponge"
+    },
+    {
+        "name": "X Hunter Access Codes",
+        "type": "toggle",
+        "codes": "stage_x_hunter"
+    },
+    {
+        "name": "Sigma Access Codes",
+        "type": "toggle",
+        "codes": "stage_sigma"
+    },
+    {
+        "name": "Spin Wheel",
+        "type": "toggle",
+        "img": "images/icons/spin_wheel.png",
+        "disabled_img": "images/icons/spin_wheel_gray.png",
+        "codes": "spin_wheel"
+    },
+    {
+        "name": "Bubble Splash",
+        "type": "toggle",
+        "img": "images/icons/bubble_splash.png",
+        "disabled_img": "images/icons/bubble_splash_gray.png",
+        "codes": "bubble_splash"
+    },
+    {
+        "name": "Speed Burner",
+        "type": "toggle",
+        "img": "images/icons/speed_burner.png",
+        "disabled_img": "images/icons/speed_burner_gray.png",
+        "codes": "speed_burner"
+    },
+    {
+        "name": "Silk Shot",
+        "type": "toggle",
+        "img": "images/icons/silk_shot.png",
+        "disabled_img": "images/icons/silk_shot_gray.png",
+        "codes": "silk_shot"
+    },
+    {
+        "name": "Magnet Mine",
+        "type": "toggle",
+        "img": "images/icons/magnet_mine.png",
+        "disabled_img": "images/icons/magnet_mine_gray.png",
+        "codes": "magnet_mine"
+    },
+    {
+        "name": "Crystal Hunter",
+        "type": "toggle",
+        "img": "images/icons/crystal_hunter.png",
+        "disabled_img": "images/icons/crystal_hunter_gray.png",
+        "codes": "crystal_hunter"
+    },
+    {
+        "name": "Sonic Slicer",
+        "type": "toggle",
+        "img": "images/icons/sonic_slicer.png",
+        "disabled_img": "images/icons/sonic_slicer_gray.png",
+        "codes": "sonic_slicer"
+    },
+    {
+        "name": "Strike Chain",
+        "type": "toggle",
+        "img": "images/icons/strike_chain.png",
+        "disabled_img": "images/icons/strike_chain_gray.png",
+        "codes": "strike_chain"
+    },
+    {
+        "name": "Shoryuken",
+        "type": "toggle",
+        "img": "images/icons/shoryuken.png",
+        "disabled_img": "images/icons/shoryuken_gray.png",
+        "codes": "shoryuken"
+    },
+
+    {
+        "name": "Heart Tank",
+        "type": "consumable",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 32,
+        "overlay_background": "#A0000000",
+        "img": "images/icons/heart.png",
+        "disabled_img": "images/icons/heart_gray.png",
+        "codes": "heart_tank"
+    },
+    {
+        "name": "Sub Tank",
+        "type": "consumable",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 32,
+        "overlay_background": "#A0000000",
+        "img": "images/icons/subtank.png",
+        "disabled_img": "images/icons/subtank_gray.png",
+        "codes": "sub_tank"
+    },
+    
+    {
+      "name": "Helmet Upgrade",
+      "type": "toggle",
+      "img": "images/icons/helmet.png",
+      "disabled_img": "images/icons/helmet_gray.png",
+      "codes": "helmet"
+    },
+    {
+      "name": "Body Upgrade",
+      "type": "toggle",
+      "img": "images/icons/body.png",
+      "disabled_img": "images/icons/body_gray.png",
+      "codes": "body"
+    },
+    {
+      "name": "Arms Upgrade",
+      "type": "consumable",
+      "img": "images/icons/arms.png",
+      "disabled_img": "images/icons/arms_gray.png",
+      "codes": "arms_mapped"
+    },
+    {
+      "name": "Arms Upgrade",
+      "type": "progressive",
+      "loop": false,
+      "allow_disabled": false,
+      "initial_stage_idx": 1,
+      "codes": "arms",
+      "stages": [
+        {
+          "img": "images/icons/arms_x.png",
+          "name": "Buster Jammed",
+          "codes": "arms0",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/arms_gray.png",
+          "name": "No Arms Upgrade",
+          "codes": "arms1",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/arms.png",
+          "name": "Arms Upgrade",
+          "codes": "arms2",
+          "inherit_codes": true
+        }
+      ]
+    },
+    {
+      "name": "Legs Upgrade",
+      "type": "consumable",
+      "img": "images/icons/legs.png",
+      "disabled_img": "images/icons/legs_gray.png",
+      "codes": "legs"
+    },
+
+    {
+        "name": "Large HP Refill",
+        "type": "consumable",
+        "codes": "large_hp"
+    },
+    {
+        "name": "Small HP Refill",
+        "type": "consumable",
+        "codes": "small_hp"
+    },
+    {
+        "name": "Extra Life",
+        "type": "consumable",
+        "codes": "life"
+    },
+    {
+      "name": "Small Weapon Refill",
+      "type": "consumable",
+      "codes": "small_weapon"
+    },
+    {
+      "name": "Large Weapon Refill",
+      "type": "consumable",
+      "codes": "large_weapon"
+    },
+    {
+      "name": "Wheel Gator Refight Cleared",
+      "type": "toggle",
+      "codes": "wheel_gator_refight_cleared"
+    },
+    {
+        "name": "Wheel Gator State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "wheel_gator_state",
+        "stages": [
+          {
+            "img": "images/icons/wheel_gator_gray.png",
+            "name": "Wheel Gator Locked",
+            "codes": "wheel_gator_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/wheel_gator.png",
+            "name": "Wheel Gator Open",
+            "codes": "wheel_gator_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/wheel_gator_x.png",
+            "name": "Wheel Gator Defeated",
+            "codes": "wheel_gator_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Bubble Crab Refight Cleared",
+      "type": "toggle",
+      "codes": "bubble_crab_refight_cleared"
+    },
+    {
+        "name": "Bubble Crab State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "bubble_crab_state",
+        "stages": [
+          {
+            "img": "images/icons/bubble_crab_gray.png",
+            "name": "Bubble Crab Locked",
+            "codes": "bubble_crab_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/bubble_crab.png",
+            "name": "Bubble Crab Open",
+            "codes": "bubble_crab_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/bubble_crab_x.png",
+            "name": "Bubble Crab Defeated",
+            "codes": "bubble_crab_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Flame Stag Refight Cleared",
+      "type": "toggle",
+      "codes": "flame_stag_refight_cleared"
+    },
+    {
+        "name": "Flame Stag State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "flame_stag_state",
+        "stages": [
+          {
+            "img": "images/icons/flame_stag_gray.png",
+            "name": "Flame Stag Locked",
+            "codes": "flame_stag_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/flame_stag.png",
+            "name": "Flame Stag Open",
+            "codes": "flame_stag_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/flame_stag_x.png",
+            "name": "Flame Stag Defeated",
+            "codes": "flame_stag_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Morph Moth Refight Cleared",
+      "type": "toggle",
+      "codes": "morph_moth_refight_cleared"
+    },
+    {
+        "name": "Morph Moth State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "morph_moth_state",
+        "stages": [
+          {
+            "img": "images/icons/morph_moth_gray.png",
+            "name": "Morph Moth Locked",
+            "codes": "morph_moth_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/morph_moth.png",
+            "name": "Morph Moth Open",
+            "codes": "morph_moth_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/morph_moth_x.png",
+            "name": "Morph Moth Defeated",
+            "codes": "morph_moth_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Magna Centipede Refight Cleared",
+      "type": "toggle",
+      "codes": "magna_centipede_refight_cleared"
+    },
+    {
+        "name": "Magna Centipede State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "magna_centipede_state",
+        "stages": [
+          {
+            "img": "images/icons/magna_centipede_gray.png",
+            "name": "Magna Centipede Locked",
+            "codes": "magna_centipede_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/magna_centipede.png",
+            "name": "Magna Centipede Open",
+            "codes": "magna_centipede_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/magna_centipede_x.png",
+            "name": "Magna Centipede Defeated",
+            "codes": "magna_centipede_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Crystal Snail Refight Cleared",
+      "type": "toggle",
+      "codes": "crystal_snail_refight_cleared"
+    },
+    {
+        "name": "Crystal Snail State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "crystal_snail_state",
+        "stages": [
+          {
+            "img": "images/icons/crystal_snail_gray.png",
+            "name": "Crystal Snail Locked",
+            "codes": "crystal_snail_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/crystal_snail.png",
+            "name": "Crystal Snail Open",
+            "codes": "crystal_snail_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/crystal_snail_x.png",
+            "name": "Crystal Snail Defeated",
+            "codes": "crystal_snail_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Overdrive Ostrich Refight Cleared",
+      "type": "toggle",
+      "codes": "overdrive_ostrich_refight_cleared"
+    },
+    {
+        "name": "Overdrive Ostrich State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "overdrive_ostrich_state",
+        "stages": [
+          {
+            "img": "images/icons/overdrive_ostrich_gray.png",
+            "name": "Overdrive Ostrich Locked",
+            "codes": "overdrive_ostrich_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/overdrive_ostrich.png",
+            "name": "Overdrive Ostrich Open",
+            "codes": "overdrive_ostrich_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/overdrive_ostrich_x.png",
+            "name": "Overdrive Ostrich Defeated",
+            "codes": "overdrive_ostrich_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    {
+      "name": "Wire Sponge Refight Cleared",
+      "type": "toggle",
+      "codes": "wire_sponge_refight_cleared"
+    },
+    {
+        "name": "Wire Sponge State",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "wire_sponge_state",
+        "stages": [
+          {
+            "img": "images/icons/wire_sponge_gray.png",
+            "name": "Wire Sponge Locked",
+            "codes": "wire_sponge_0",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/wire_sponge.png",
+            "name": "Wire Sponge Open",
+            "codes": "wire_sponge_1",
+            "inherit_codes": true
+          },
+          {
+            "img": "images/icons/wire_sponge_x.png",
+            "name": "Wire Sponge Defeated",
+            "codes": "wire_sponge_2",
+            "inherit_codes": true
+          }
+        ]
+    },
+    
+    {
+      "name": "Agile Defeated",
+      "type": "toggle",
+      "codes": "agile_cleared"
+    },
+    {
+      "name": "Agile State",
+      "type": "progressive",
+      "loop": false,
+      "allow_disabled": false,
+      "codes": "agile_state",
+      "stages": [
+        {
+          "img": "images/icons/agile_gray.png",
+          "name": "Agile Locked",
+          "codes": "agile_state_0",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/agile.png",
+          "name": "Agile Open",
+          "codes": "agile_state_1",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/agile_x.png",
+          "name": "Agile Defeated",
+          "codes": "agile_state_2",
+          "inherit_codes": true
+        }
+      ]
+  },
+    {
+      "name": "Serges Defeated",
+      "type": "toggle",
+      "codes": "serges_cleared"
+    },
+    {
+      "name": "Serges State",
+      "type": "progressive",
+      "loop": false,
+      "allow_disabled": false,
+      "codes": "serges_state",
+      "stages": [
+        {
+          "img": "images/icons/serges_gray.png",
+          "name": "Serges Locked",
+          "codes": "serges_state_0",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/serges.png",
+          "name": "Serges Open",
+          "codes": "serges_state_1",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/serges_x.png",
+          "name": "Serges Defeated",
+          "codes": "serges_state_2",
+          "inherit_codes": true
+        }
+      ]
+  },
+  {
+    "name": "Violen Defeated",
+    "type": "toggle",
+    "codes": "violen_cleared"
+  },
+  {
+    "name": "Violen State",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "codes": "violen_state",
+    "stages": [
+        {
+          "img": "images/icons/violen_gray.png",
+          "name": "Violen Locked",
+          "codes": "violen_state_0",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/violen.png",
+          "name": "Violen Open",
+          "codes": "violen_state_1",
+          "inherit_codes": true
+        },
+        {
+          "img": "images/icons/violen_x.png",
+          "name": "Violen Defeated",
+          "codes": "violen_state_2",
+          "inherit_codes": true
+        }
+      ]
+    },
+    {
+      "name": "X Hunter Base 1 Cleared",
+      "type": "toggle",
+      "codes": "base_1_cleared"
+    },
+    {
+      "name": "X Hunter Base 2 Cleared",
+      "type": "toggle",
+      "codes": "base_2_cleared"
+    },
+    {
+      "name": "X Hunter Base 3 Cleared",
+      "type": "toggle",
+      "codes": "base_3_cleared"
+    },
+    {
+      "name": "X Hunter Base 4 Cleared",
+      "type": "toggle",
+      "codes": "base_4_cleared"
+    },
+
+    {
+        "name": "Pickupsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+          {
+            "img": "images/settings/pickupsanity_off.png",
+            "name": "Pickupsanity - Off",
+            "codes": "pickupsanity,pickupsanity_off",
+            "inherit_codes": false
+          },
+          {
+            "img": "images/settings/pickupsanity_on.png",
+            "name": "Pickupsanity - On",
+            "codes": "pickupsanity,pickupsanity_on"
+          }
+        ]
+    },
+    {
+        "name": "Jammed Buster",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Jammed Buster - Off",
+                "codes": "jammed_buster,jammed_buster_off",
+                "inherit_codes": false,
+                "img": "images/settings/jammedbuster_off.png"
+            },
+            {
+                "name": "Jammed Buster - On",
+                "codes": "jammed_buster,jammed_buster_on",
+                "img": "images/settings/jammedbuster_on.png"
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Open Logic AP",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "codes": "base_open"
+    },
+    {
+        "name": "X Hunter Base Weapon Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "max_quantity": 8,
+        "overlay_font_size": 26,
+        "img": "images/settings/base_weapons_count.png",
+        "codes": "base_weapon_count"
+    },
+    {
+        "name": "X Hunter Base Upgrade Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "max_quantity": 9,
+        "overlay_font_size": 26,
+        "img": "images/settings/base_upgrades_count.png",
+        "codes": "base_upgrade_count"
+    },
+    {
+        "name": "X Hunter Base Heart Tank Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "max_quantity": 8,
+        "overlay_font_size": 26,
+        "img": "images/settings/base_hearttanks_count.png",
+        "codes": "base_heart_tank_count"
+    },
+    {
+        "name": "X Hunter Base Sub Tank Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "max_quantity": 4,
+        "overlay_font_size": 26,
+        "img": "images/settings/base_subtanks_count.png",
+        "codes": "base_sub_tank_count"
+    },
+    {
+        "name": "X Hunter Base Medal Count",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "max_quantity": 8,
+        "overlay_font_size": 26,
+        "img": "images/settings/base_medals_count.png",
+        "codes": "base_medal_count"
+    },
+    {
+      "name": "Rematch Fights Required",
+      "type": "consumable",
+      "initial_quantity": 8,
+      "max_quantity": 8,
+      "overlay_font_size": 26,
+      "img": "images/settings/rematch_required_count.png",
+      "codes": "base_boss_rematch_count"
+    },
+    {
+      "name": "Rematch Fights",
+      "type": "consumable",
+      "codes": "rematch_fights"
+    },
+    {
+      "name": "dummy refresh item",
+      "type": "toggle",
+      "codes": "refresh"
+    },
+    {
+      "name": "Logic Boss Weakness",
+      "type": "toggle",
+      "img": "images/icons/sigma.png",
+      "codes": "logic_boss_weakness"
+  },
+  {
+    "name": "Bosses Logically Require Weaknesses",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+        {
+          "img": "images/settings/weaknesses_off.png",
+          "name": "Bosses Logically Require Weaknesses - Off",
+          "codes": "setting_weakness,setting_weakness_off",
+          "inherit_codes": false
+        },
+        {
+          "img": "images/settings/weaknesses_on.png",
+          "name": "Bosses Logically Require Weaknesses - On",
+          "codes": "setting_weakness,setting_weakness_on"
+        }
+      ]
+    },
+    {
+      "name": "Boss Weakness Strictness",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "codes": "boss_weakness_strictness",
+      "stages": [
+        {
+          "img": "images/settings/setting_strictness_0.png",
+          "name": "Boss Weakness Strictness - Not Strict",
+          "codes": "boss_weakness_strictness_0",
+          "inherit_codes": false
+        },
+        {
+          "img": "images/settings/setting_strictness_1.png",
+          "name": "Boss Weakness Strictness - Weakness and Buster",
+          "codes": "boss_weakness_strictness_1"
+        },
+        {
+          "img": "images/settings/setting_strictness_2.png",
+          "name": "Boss Weakness Strictness - Weakness and Upgraded Buster",
+          "codes": "boss_weakness_strictness_2"
+        },
+        {
+          "img": "images/settings/setting_strictness_3.png",
+          "name": "Boss Weakness Strictness - Only Weakness",
+          "codes": "boss_weakness_strictness_3"
+        }
+      ]
+    },
+    {
+      "name": "Group X Hunter Base Levels",
+      "type": "progressive",
+      "allow_disabled": false,
+      "loop": true,
+      "stages": [
+        {
+          "img": "images/settings/base_group_off.png",
+          "name": "Group X Hunter Base Levels Levels - Off",
+          "codes": "base_all_levels,base_all_levels_off",
+          "inherit_codes": "false"
+        },
+        {
+          "img": "images/settings/base_group_on.png",
+          "name": "Group X Hunter Base Levels - On",
+          "codes": "base_all_levels,base_all_levels_on"
+        }
+      ]
+    },
+    {
+      "name": "X Hunter Base Access",
+      "type": "toggle",
+      "img": "images/icons/drdoppler.png",
+      "disabled_img": "images/icons/drdoppler_gray.png",
+      "codes": "is_base_open"
+    },
+    {
+      "name": "Auto Switch Tabs",
+      "type": "progressive",
+      "loop": true,
+      "allow_disabled": false,
+      "initial_stage_idx": 1,
+      "codes": "auto_tab_switch",
+      "stages": [
+        {
+          "img": "images/icons/tabswitch_gray.png",
+          "name": "Auto Switch Tabs - Off"
+        },
+        {
+          "img": "images/icons/tabswitch.png",
+          "name": "Auto Switch Tabs - On"
+        }
+      ]
+    },
+  {
+    "name": "X Hunter Medal Count",
+    "type": "consumable",
+    "initial_quantity": 2,
+    "max_quantity": 8,
+    "overlay_font_size": 26,
+    "img": "images/settings/hunters_medals_count.png",
+    "codes": "x_hunters_medal_count"
+  }
+]

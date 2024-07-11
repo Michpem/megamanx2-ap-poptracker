@@ -1,0 +1,2779 @@
+[
+    {
+        "name": "Stages",
+        "children": [
+            {
+                "name": "Intro Stage",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Gigantic Mechaniloid CF-0",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 140,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Bubble Crab",
+                "access_rules": ["bubble_crab_1"],
+                "sections": [
+                    {
+                        "name": "1-Up Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs", "$can_charge,speed_burner", "$can_charge,bubble_splash"]
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Sub Tank",
+                        "access_rules": ["$can_charge,bubble_splash"]
+                    },
+                    {
+                        "name": "HP Pickup 5",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Bubble Crab",
+                        "access_rules": [
+                            "$has_weakness_for|Bubble Crab",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Bubble Crab",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 92,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Snail",
+                "access_rules": ["crystal_snail_1"],
+                "sections": [
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": ["legs", "$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Magna Quartz",
+                        "access_rules": [
+                            "$has_weakness_for|Magna Quartz",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Helmet Capsule",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Crystal Snail",
+                        "access_rules": [
+                            "$has_weakness_for|Crystal Snail",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Crystal Snail",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 235,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Flame Stag",
+                "access_rules": ["flame_stag_1"],
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Sub Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 5",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 7",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 8",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 9",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Flame Stag",
+                        "access_rules": [
+                            "$has_weakness_for|Flame Stag",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Flame Stag",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 190,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Magna Centipede",
+                "access_rules": ["magna_centipede_1"],
+                "sections": [
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": ["$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "Sub Tank",
+                        "access_rules": ["$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "Chop Register",
+                        "access_rules": [
+                            "$has_weakness_for|Chop Register",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Raider Killer",
+                        "access_rules": [
+                            "$has_weakness_for|Raider Killer",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Magna Centipede",
+                        "access_rules": [
+                            "$has_weakness_for|Magna Centipede",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Magna Centipede",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 237,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Morph Moth",
+                "access_rules": ["morph_moth_1"],
+                "sections": [
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": ["crystal_hunter"]
+                    },
+                    {
+                        "name": "Body Capsule",
+                        "access_rules": ["spin_wheel"]
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Pararoid S-38 #1",
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 5",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Pararoid S-38 #2",
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Morph Moth",
+                        "access_rules": [
+                            "$has_weakness_for|Morph Moth",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Morph Moth",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 95,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Overdrive Ostrich",
+                "access_rules": ["overdrive_ostrich_1"],
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["spin_wheel"]
+                    },
+                    {
+                        "name": "1-Up Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Legs Capsule",
+                        "access_rules": ["spin_wheel"]
+                    },
+                    {
+                        "name": "Overdrive Ostrich",
+                        "access_rules": [
+                            "$has_weakness_for|Overdrive Ostrich",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Overdrive Ostrich",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 45,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Wheel Gator",
+                "access_rules": ["wheel_gator_1"],
+                "sections": [
+                    {
+                        "name": "Arms Capsule",
+                        "access_rules": ["legs", "$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": ["$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 5",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 7",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Wheel Gator",
+                        "access_rules": [
+                            "$has_weakness_for|Wheel Gator",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Wheel Gator",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 190,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Wire Sponge",
+                "access_rules": ["wire_sponge_1"],
+                "sections": [
+                    {
+                        "name": "Heart Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Sub Tank",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Wire Sponge",
+                        "access_rules": [
+                            "$has_weakness_for|Wire Sponge",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": [
+                            "$has_weakness_for|Wire Sponge",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 45,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "X Hunter Base Stage 1",
+                "access_rules": ["$is_base_open"],
+                "sections": [
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Neo Violen",
+                        "access_rules": [
+                            "$has_weakness_for|Neo Violen",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 90,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "X Hunter Base Stage 2",
+                "access_rules": [
+                    "$is_base_open,$is_base_two_and_three_and_four_open,legs,crystal_hunter",
+                    "$is_base_open,$is_base_two_and_three_and_four_open,$can_charge,speed_burner",
+                     "base_1_cleared,legs,crystal_hunter",
+                     "base_1_cleared,$can_charge,speed_burner"
+                    ],
+                "sections": [
+                    {
+                        "name": "HP Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["spin_wheel"]
+                    },
+                    {
+                        "name": "1-Up Pickup",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs,$can_charge,speed_burner,spin_wheel"]
+                    },
+                    {
+                        "name": "Serges Tank",
+                        "access_rules": [
+                            "$has_weakness_for|Serges Tank",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 110,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "X Hunter Base Stage 3",
+                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "base_2_cleared"],
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs,strike_chain"]
+                    },
+                    {
+                        "name": "1-Up Pickup 1",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs,strike_chain"]
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 5",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": []
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["crystal_hunter"]
+                    },
+                    {
+                        "name": "HP Pickup 7",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["crystal_hunter"]
+                    },
+                    {
+                        "name": "HP Pickup 8",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["crystal_hunter"]
+                    },
+                    {
+                        "name": "1-Up Pickup 3",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs,$can_charge,speed_burner,crystal_hunter"]
+                    },
+                    {
+                        "name": "1-Up Pickup 4",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs","$can_charge,speed_burner"]
+                    },
+                    {
+                        "name": "Shoryuken Capsule",
+                        "access_rules": ["legs,$can_charge,speed_burner,crystal_hunter"]
+                    },
+                    {
+                        "name": "Agile Flyer",
+                        "access_rules": [
+                            "$has_weakness_for|Agile Flyer",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 130,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "X Hunter Base Stage 4",
+                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "base_3_cleared"],
+                "sections": [
+                    {
+                        "name": "Bubble Crab Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Bubble Crab",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Snail Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Crystal Snail",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Flame Stag Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Flame Stag",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Magna Centipede Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Magna Centipede",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Morph Moth Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Morph Moth",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Overdrive Ostrich Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Overdrive Ostrich",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Wheel Gator Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Wheel Gator",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Wire Sponge Rematch",
+                        "access_rules": [
+                            "$has_weakness_for|Wire Sponge",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 150,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "X Hunter Base Stage 5",
+                "access_rules": ["base_1_cleared,base_2_cleared,base_3_cleared,base_4_cleared"],
+                "sections": [
+                    {
+                        "name": "Zero",
+                        "access_rules": [
+                            "$has_weakness_for|Zero",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    },
+                    {
+                        "name": "Sigma",
+                        "access_rules": [
+                            "$has_weakness_for|Sigma,$has_weakness_for|Sigma Virus",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 170,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "Agile",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Agile",
+                        "hosted_item": "",
+                        "access_rules": ["agile_state_1"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 92,
+                        "y": 133
+                    }
+                ]
+            },
+            {
+                "name": "Serges",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Serges",
+                        "hosted_item": "",
+                        "access_rules": ["serges_state_1"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 142,
+                        "y": 133
+                    }
+                ]
+            },
+            {
+                "name": "Violen",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Violen",
+                        "hosted_item": "",
+                        "access_rules": ["violen_state_1"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stages",
+                        "x": 189,
+                        "y": 133
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunters",
+        "children":[
+            {
+                "name": "X Hunters",
+                "sections":[
+                    {
+                        "name": "Agile",
+                        "ref": "Stages/Agile/Agile"
+                    },
+                    {
+                        "name": "Serges",
+                        "ref": "Stages/Serges/Serges"
+                    },
+                    {
+                        "name": "Violen",
+                        "ref": "Stages/Violen/Violen"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 1599,
+                        "y": 180
+                    },
+                    {
+                        "map": "crystal_snail",
+                        "x": 960,
+                        "y": 52
+                    },
+                    {
+                        "map": "flame_stag",
+                        "x": 1090,
+                        "y": 85
+                    },
+                    {
+                        "map": "magna_centipede",
+                        "x": 1036,
+                        "y": 809
+                    },
+                    {
+                        "map": "morph_moth",
+                        "x": 1980,
+                        "y": 183
+                    },
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 702,
+                        "y": 61
+                    },
+                    {
+                        "map": "wheel_gator",
+                        "x": 1346,
+                        "y": 162
+                    },
+                    {
+                        "map": "wire_sponge",
+                        "x": 1472,
+                        "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Intro Stage",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "name": "Gigantic Mechaniloid CF-0",
+                        "ref": "Stages/Intro Stage/Gigantic Mechaniloid CF-0"
+                    },
+                    {
+                        "name": "Stage Clear",
+                        "ref": "Stages/Intro Stage/Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "intro",
+                        "x": 3236,
+                        "y": 1098
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1 ",
+                "sections": [
+                    {
+                        "ref": "Stages/Intro Stage/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "intro",
+                        "x": 1519,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Intro Stage/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "intro",
+                        "x": 3406,
+                        "y": 185
+                    }
+                ]
+                
+            }
+        ]
+    },
+    {
+        "name": "Bubble Crab",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/Bubble Crab",
+                        "name": "Bubble Crab"
+                    },
+                    {
+                        "ref": "Stages/Bubble Crab/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 1986,
+                        "y": 183
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 489,
+                        "y": 211
+                    }
+                ]
+            },
+            {
+                "name": "Sub Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/Sub Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 956,
+                        "y": 562
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/1-Up Pickup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 355,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "Weapon Energy Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 690,
+                        "y": 557
+                    }
+                ]
+            },
+            {
+                "name": "Weapon Energy Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 934,
+                        "y": 837
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 341,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 555,
+                        "y": 314
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 651,
+                        "y": 884
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 971,
+                        "y": 878
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 5",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 951,
+                        "y": 748
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 6",
+                "sections": [
+                    {
+                        "ref": "Stages/Bubble Crab/HP Pickup 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bubble_crab",
+                        "x": 1686,
+                        "y": 276
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crystal Snail",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/Crystal Snail",
+                        "name": "Crystal Snail"
+                    },
+                    {
+                        "ref": "Stages/Crystal Snail/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 1509,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Magna Quartz",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/Magna Quartz"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 1467,
+                        "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "Helmet Capsule",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/Helmet Capsule"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 630,
+                        "y": 988
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 11,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "name": "Weapon Energy Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/Weapon Energy Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 848,
+                        "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 1246,
+                        "y": 347
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/1-Up Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 582,
+                        "y": 1003
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 800,
+                        "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 1067,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/HP Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 1132,
+                        "y": 373
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/Crystal Snail/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crystal_snail",
+                        "x": 654,
+                        "y": 747
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Flame Stag",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/Flame Stag",
+                        "name": "Flame Stag"
+                    },
+                    {
+                        "ref": "Stages/Flame Stag/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 1336,
+                        "y": 850
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 396,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Sub Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/Sub Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 27,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Pickup Group",
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "ref": "Stages/Flame Stag/HP Pickup 1"
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 1"
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "ref": "Stages/Flame Stag/HP Pickup 2"
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 2",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 2"
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "ref": "Stages/Flame Stag/HP Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 247,
+                        "y": 927
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 316,
+                        "y": 589
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 396,
+                        "y": 741
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/1-Up Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 468,
+                        "y": 788
+                    }
+                ]
+            },
+            {
+                "name": "Pickup Group 2",
+                "sections": [
+                    {
+                        "name": "HP Pickup 5",
+                        "ref": "Stages/Flame Stag/HP Pickup 5"
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 3",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 478,
+                        "y": 670
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 6",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/HP Pickup 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 396,
+                        "y": 326
+                    }
+                ]
+            },
+            {
+                "name": "Pickup Group 3",
+                "sections": [
+                    {
+                        "name": "HP Pickup 7",
+                        "ref": "Stages/Flame Stag/HP Pickup 7"
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 4",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 912,
+                        "y": 317
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/1-Up Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 1144,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 8",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/HP Pickup 8"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 912,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 9",
+                "sections": [
+                    {
+                        "ref": "Stages/Flame Stag/HP Pickup 9"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "flame_stag",
+                        "x": 923,
+                        "y": 934
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magna Centipede",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/Magna Centipede",
+                        "name": "Magna Centipede"
+                    },
+                    {
+                        "ref": "Stages/Magna Centipede/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 1935,
+                        "y": 684
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 740,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "Sub Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/Sub Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 1636,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 2008,
+                        "y": 227
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 833,
+                        "y": 847
+                    }
+                ]
+            },
+            {
+                "name": "Chop Register",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/Chop Register"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 1856,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Raider Killer",
+                "sections": [
+                    {
+                        "ref": "Stages/Magna Centipede/Raider Killer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "magna_centipede",
+                        "x": 1037,
+                        "y": 682
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Morph Moth",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/Morph Moth",
+                        "name": "Morph Moth"
+                    },
+                    {
+                        "ref": "Stages/Morph Moth/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 1018,
+                        "y": 876
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 503,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Body Capsule",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/Body Capsule"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 799,
+                        "y": 451
+                    }
+                ]
+            },
+            {
+                "name": "Pararoid S-38 #1",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/Pararoid S-38 #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 1470,
+                        "y": 48
+                    }
+                ]
+            },
+            {
+                "name": "Pararoid S-38 #2",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/Pararoid S-38 #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 378,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 1768,
+                        "y": 93
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 1687,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/HP Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 1768,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 225,
+                        "y": 651
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 5",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/HP Pickup 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 273,
+                        "y": 602
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 423,
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Morph Moth/1-Up Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "morph_moth",
+                        "x": 952,
+                        "y": 61
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Overdrive Ostrich",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Overdrive Ostrich/Overdrive Ostrich",
+                        "name": "Overdrive Ostrich"
+                    },
+                    {
+                        "ref": "Stages/Overdrive Ostrich/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 1774,
+                        "y": 772
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 554,
+                        "y": 188
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup",
+                "sections": [
+                    {
+                        "ref": "Stages/Overdrive Ostrich/1-Up Pickup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 691,
+                        "y": 715
+                    }
+                ]
+            },
+            {
+                "name": "Spike Pickups",
+                "sections": [
+                    {
+                        "name": "Weapon Energy Pickup 1",
+                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 1"
+                    },
+                    {
+                        "name": "HP Pickup 2",
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 2"
+                    },
+                    {
+                        "name": "Weapon Energy Pickup 2",
+                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 2"
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 3"
+                    },
+                    {
+                        "name": "Heart Tank",
+                        "ref": "Stages/Overdrive Ostrich/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 1222,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Legs Capsule",
+                "sections": [
+                    {
+                        "ref": "Stages/Overdrive Ostrich/Legs Capsule"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overdrive_ostrich",
+                        "x": 1430,
+                        "y": 795
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wheel Gator",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/Wheel Gator",
+                        "name": "Wheel Gator"
+                    },
+                    {
+                        "ref": "Stages/Wheel Gator/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1855,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Arms Capsule",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/Arms Capsule"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 610,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 153,
+                        "y": 406
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 343,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 546,
+                        "y": 676
+                    }
+                ]
+            },
+            {
+                "name": "Weapon Energy Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/Weapon Energy Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1119,
+                        "y": 278
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/1-Up Pickup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1176,
+                        "y": 197
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/HP Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1482,
+                        "y": 163
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/Wheel Gator/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1557,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "Hidden HP Pickups",
+                "sections": [
+                    {
+                        "name": "HP Pickup 5",
+                        "ref": "Stages/Wheel Gator/HP Pickup 5"
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "ref": "Stages/Wheel Gator/HP Pickup 6"
+                    },
+                    {
+                        "name": "HP Pickup 7",
+                        "ref": "Stages/Wheel Gator/HP Pickup 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wheel_gator",
+                        "x": 1900,
+                        "y": 443
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wire Sponge",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/Wire Sponge",
+                        "name": "Wire Sponge"
+                    },
+                    {
+                        "ref": "Stages/Wire Sponge/Stage Clear",
+                        "name": "Stage Clear"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 1529,
+                        "y": 601
+                    }
+                ]
+            },
+            {
+                "name": "Heart Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/Heart Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 11,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 887,
+                        "y": 228
+                    }
+                ]
+            },
+            {
+                "name": "Sub Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/Sub Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 1085,
+                        "y": 162
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/HP Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 1384,
+                        "y": 469
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/Wire Sponge/HP Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wire_sponge",
+                        "x": 1096,
+                        "y": 702
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Stage 1",
+        "children": [
+            {
+                "name": "1-Up Pickup 1",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_1",
+                        "x": 348,
+                        "y": 773
+                    }
+                ]
+            },
+            {
+                "name": "Pickups",
+                "sections": [
+                    {
+                        "name": "HP Pickup",
+                        "ref": "Stages/X Hunter Base Stage 1/HP Pickup"
+                    },
+                    {
+                        "name": "1-Up Pickup 2",
+                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_1",
+                        "x": 1592,
+                        "y": 879
+                    }
+                ]
+            },
+            {
+                "name": "Neo Violen",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 1/Neo Violen"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_1",
+                        "x": 1941,
+                        "y": 78
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Stage 2",
+        "children": [
+            {
+                "name": "1-Up Pickup",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 2/1-Up Pickup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_2",
+                        "x": 1299,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "HP Pickup",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 2/HP Pickup"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_2",
+                        "x": 1122,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Serges Tank",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 2/Serges Tank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_2",
+                        "x": 1396,
+                        "y": 174
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Stage 3",
+        "children": [
+            {
+                "name": "Ledge 1",
+                "sections": [
+                    {
+                        "name": "HP Pickup 1",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 1"
+                    },
+                    {
+                        "name": "1-Up Pickup 1",
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 343,
+                        "y": 949
+                    }
+                ]
+            },
+            {
+                "name": "Ledge 2",
+                "sections": [
+                    {
+                        "name": "HP Pickup 2",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 2"
+                    },
+                    {
+                        "name": "HP Pickup 3",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 3"
+                    },
+                    {
+                        "name": "HP Pickup 4",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 590,
+                        "y": 691
+                    }
+                ]
+            },
+            {
+                "name": "Ledge 3",
+                "sections": [
+                    {
+                        "name": "HP Pickup 5",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 5"
+                    },
+                    {
+                        "name": "HP Pickup 6",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 544,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 2",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 671,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Ledge 4",
+                "sections": [
+                    {
+                        "name": "HP Pickup 7",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 7"
+                    },
+                    {
+                        "name": "HP Pickup 8",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 8"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 671,
+                        "y": 51
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 3",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 952,
+                        "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "1-Up Pickup 4",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 703,
+                        "y": 739
+                    }
+                ]
+            },
+            {
+                "name": "Shoryuken Capsule",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 3/Shoryuken Capsule"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 832,
+                        "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Agile Flyer",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 3/Agile Flyer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_3",
+                        "x": 1603,
+                        "y": 702
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Stage 4",
+        "children": [
+            {
+                "name": "Bubble Crab Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Bubble Crab Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 418,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Snail Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Crystal Snail Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 752,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Flame Stag Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Flame Stag Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 512,
+                        "y": 410
+                    }
+                ]
+            },
+            {
+                "name": "Magna Centipede Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Magna Centipede Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 657,
+                        "y": 410
+                    }
+                ]
+            },
+            {
+                "name": "Morph Moth Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Morph Moth Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 418,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Overdrive Ostrich Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Overdrive Ostrich Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 752,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "name": "Wheel Gator Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Wheel Gator Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 752,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Wire Sponge Rematch",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 4/Wire Sponge Rematch"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_4",
+                        "x": 418,
+                        "y": 250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "X Hunter Base Stage 5",
+        "children": [
+            {
+                "name": "Zero",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 5/Zero"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_5",
+                        "x": 1857,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "Sigma",
+                "sections": [
+                    {
+                        "ref": "Stages/X Hunter Base Stage 5/Sigma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "base_5",
+                        "x": 1857,
+                        "y": 468
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,132 @@
+{
+    "layouttabs": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Stage Select",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "stages"
+                    ]
+                }
+            },
+            {
+                "title": "Intro Stage",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "intro"
+                    ]
+                }
+            },
+            {
+                "title": "Maverick Stages",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bubble Crab",
+                            "content": {
+                                "type": "map",
+                                "maps": ["bubble_crab"]
+                            }
+                        },
+                        {
+                            "title": "Crystal Snail",
+                            "content": {
+                                "type": "map",
+                                "maps": ["crystal_snail"]
+                            }
+                        },
+                        {
+                            "title": "Flame Stag",
+                            "content": {
+                                "type": "map",
+                                "maps": ["flame_stag"]
+                            }
+                        },
+                        {
+                            "title": "Magna Centipede",
+                            "content": {
+                                "type": "map",
+                                "maps": ["magna_centipede"]
+                            }
+                        },
+                        {
+                            "title": "Morph Moth",
+                            "content": {
+                                "type": "map",
+                                "maps": ["morph_moth"]
+                            }
+                        },
+                        {
+                            "title": "Overdrive Ostrich",
+                            "content": {
+                                "type": "map",
+                                "maps": ["overdrive_ostrich"]
+                            }
+                        },
+                        {
+                            "title": "Wheel Gator",
+                            "content": {
+                                "type": "map",
+                                "maps": ["wheel_gator"]
+                            }
+                        },
+                        {
+                            "title": "Wire Sponge",
+                            "content": {
+                                "type": "map",
+                                "maps": ["wire_sponge"]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "X Hunter Base",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "X Hunter Base 1",
+                            "content": {
+                                "type": "map",
+                                "maps": ["base_1"]
+                            }
+                        },
+                        {
+                            "title": "X Hunter Base 2",
+                            "content": {
+                                "type": "map",
+                                "maps": ["base_2"]
+                            }
+                        },
+                        {
+                            "title": "X Hunter Base 3",
+                            "content": {
+                                "type": "map",
+                                "maps": ["base_3"]
+                            }
+                        },
+                        {
+                            "title": "X Hunter Base 4",
+                            "content": {
+                                "type": "map",
+                                "maps": ["base_4"]
+                            }
+                        },
+                        {
+                            "title": "X Hunter Base 5",
+                            "content": {
+                                "type": "map",
+                                "maps": ["base_5"]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

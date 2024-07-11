@@ -1,0 +1,32 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "4, 5",
+                        "item_size": 50,
+                        "h_alignment": "left",
+                        "rows": [
+                            ["wire_sponge_state", "morph_moth_state", "flame_stag_state", "magna_centipede_state"],
+                            ["overdrive_ostrich_state", "bubble_crab_state", "wheel_gator_state", "crystal_snail_state"],
+                            ["agile_state", "serges_state", "violen_state", ""],
+                            ["strike_chain", "silk_shot", "speed_burner", "magnet_mine"],
+                            ["sonic_slicer", "bubble_splash", "spin_wheel", "crystal_hunter"],
+                            ["helmet", "body", "arms", "legs"],
+                            ["heart_tank", "sub_tank", "shoryuken","maverick_medal"],
+                            ["auto_tab_switch", "", "", ""]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

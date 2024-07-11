@@ -1,0 +1,92 @@
+[
+    {
+        "name": "stages",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/stages.png"
+    },
+    {
+        "name": "intro",
+        "location_size": 40,
+        "location_border_thickness": 2,
+        "img": "images/maps/intro.png"
+    },
+    {
+        "name": "bubble_crab",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/bubble_crab.png"
+    },
+    {
+        "name": "crystal_snail",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/crystal_snail.png"
+    },
+    {
+        "name": "flame_stag",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/flame_stag.png"
+    },
+    {
+        "name": "magna_centipede",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/magna_centipede.png"
+    },
+    {
+        "name": "morph_moth",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/morph_moth.png"
+    },
+    {
+        "name": "overdrive_ostrich",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/overdrive_ostrich.png"
+    },
+    {
+        "name": "wheel_gator",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/wheel_gator.png"
+    },
+    {
+        "name": "wire_sponge",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/wire_sponge.png"
+    },
+    {
+        "name": "base_1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/base_1.png"
+    },
+    {
+        "name": "base_2",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/base_2.png"
+    },
+    {
+        "name": "base_3",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/base_3.png"
+    },
+    {
+        "name": "base_4",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/base_4.png"
+    },
+    {
+        "name": "base_5",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/base_5.png"
+    }
+]
