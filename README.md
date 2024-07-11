@@ -2,7 +2,7 @@
 
 This is a PopTracker pack for Mega Man X2 Archipelago. Created by MeridianBC.
 
-![](https://raw.githubusercontent.com/BrianCumminger/megamanx3-ap-poptracker/master/images/screenshot.png)
+![](https://raw.githubusercontent.com/BrianCumminger/megamanx2-ap-poptracker/master/images/screenshot.png)
 
 ## Installation
 
