@@ -7,12 +7,12 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Before spike pit)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Before boss room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -39,12 +39,12 @@
                 "access_rules": ["bubble_crab_1"],
                 "sections": [
                     {
-                        "name": "1-Up Pickup",
+                        "name": "1-Up Pickup (Below Spin Wheel blocks before water section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": ["spin_wheel"]
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Ledge before water section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -53,27 +53,27 @@
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Top-right opening above metal floor)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
+                        "name": "Weapon Energy Pickup 1 (Top-right ledge in seabed section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": ["legs", "$can_charge,speed_burner", "$can_charge,bubble_splash"]
                     },
                     {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 3 (First pit in seabed section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 2",
+                        "name": "Weapon Energy Pickup 2 (Artificial cave in seabed section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 4 (Artificial cave in seabed section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -82,12 +82,12 @@
                         "access_rules": ["$can_charge,bubble_splash"]
                     },
                     {
-                        "name": "HP Pickup 5",
+                        "name": "HP Pickup 5 (Fake wall below Sub Tank)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 6",
+                        "name": "HP Pickup 6 (Before boss)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -120,30 +120,30 @@
                 "sections": [
                     {
                         "name": "Heart Tank",
-                        "access_rules": ["legs", "$can_charge,speed_burner"]
+                        "access_rules": ["[legs]", "[$can_charge,speed_burner]"]
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Under crystal blocks before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
+                        "name": "Weapon Energy Pickup (Under crystal blocks before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (After X-Hunter room)",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["agile_state_1", "serges_state_1", "violen_state_1"]
+                    },
+                    {
+                        "name": "HP Pickup 3 (Under crystal blocks before Magna Quartz)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 3",
-                        "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
-                    },
-                    {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup 1 (Under crystal blocks before Magna Quartz)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -155,7 +155,7 @@
                         ]
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 4 (In giant crystal slide section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -164,7 +164,7 @@
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 2",
+                        "name": "1-Up Pickup 2 (Fake ceiling next to Helmet Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -196,27 +196,27 @@
                 "access_rules": ["flame_stag_1"],
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Cave before first lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
+                        "name": "Weapon Energy Pickup 1 (Cave before first lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Cave before first lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 2",
+                        "name": "Weapon Energy Pickup 2 (Cave before first lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 3 (Cave before first lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -225,27 +225,27 @@
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup 1 (Top-right of first Beetron section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 2",
+                        "name": "1-Up Pickup 2 (Bottom of rising lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 4 (First ledge in rising lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 5",
+                        "name": "HP Pickup 5 (Second ledge in rising lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 3",
+                        "name": "Weapon Energy Pickup 3 (Second ledge in rising lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -254,32 +254,32 @@
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 6",
+                        "name": "HP Pickup 6 (After rising lava section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 4",
+                        "name": "Weapon Energy Pickup 4 (Bottom-left of lava cave section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 7",
+                        "name": "HP Pickup 7 (Bottom-left of lava cave section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 3",
+                        "name": "1-Up Pickup 3 (Above third pillar in lava cave section)",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["legs", "[legs]"]
+                    },
+                    {
+                        "name": "HP Pickup 8 (Before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 8",
-                        "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
-                    },
-                    {
-                        "name": "HP Pickup 9",
+                        "name": "HP Pickup 9 (Ledge in gas pipes section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -312,11 +312,11 @@
                 "sections": [
                     {
                         "name": "Heart Tank",
-                        "access_rules": ["$can_charge,speed_burner"]
+                        "access_rules": ["$can_charge,speed_burner", "legs", "[$can_charge,speed_burner]", "[legs]"]
                     },
                     {
                         "name": "Sub Tank",
-                        "access_rules": ["$can_charge,speed_burner"]
+                        "access_rules": ["$can_charge,speed_burner", "legs", "[$can_charge,speed_burner]", "[legs]"]
                     },
                     {
                         "name": "Chop Register",
@@ -326,12 +326,12 @@
                         ]
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (After Chop Register)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -370,9 +370,9 @@
                 "access_rules": ["morph_moth_1"],
                 "sections": [
                     {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup 1 (Left of Heart Tank)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": ["crystal_hunter"]
                     },
                     {
                         "name": "Heart Tank",
@@ -383,7 +383,7 @@
                         "access_rules": ["spin_wheel"]
                     },
                     {
-                        "name": "1-Up Pickup 2",
+                        "name": "1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -395,27 +395,27 @@
                         ]
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Before vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Left ledge in vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 3 (Right ledge in vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 4 (Bottom of magnet ceiling section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 5",
+                        "name": "HP Pickup 5 (Bottom of magnet ceiling section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -454,12 +454,12 @@
                 "access_rules": ["overdrive_ostrich_1"],
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": ["spin_wheel"]
                     },
                     {
-                        "name": "1-Up Pickup",
+                        "name": "1-Up Pickup (Top-right ledge in outdoors bike section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -469,17 +469,17 @@
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (On spikes before Legs Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 2",
+                        "name": "Weapon Energy Pickup 2 (On spikes before Legs Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 3 (On spikes before Legs Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -523,12 +523,12 @@
                         "access_rules": ["legs", "$can_charge,speed_burner"]
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (High ledge after spikes section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Ledge before Ride Armor)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -537,37 +537,37 @@
                         "access_rules": ["$can_charge,speed_burner"]
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
+                        "name": "Weapon Energy Pickup (Ledge in left elevator exit)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup",
+                        "name": "1-Up Pickup (Top of elevator)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 3 (Hidden behind top column after X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 4 (Ledge before boss room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 5",
+                        "name": "HP Pickup 5 (Hidden behind metal slope in exterior section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 6",
+                        "name": "HP Pickup 6 (Hidden behind metal slope in exterior section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 7",
+                        "name": "HP Pickup 7 (Hidden behind metal slope in exterior section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -603,7 +603,7 @@
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup (Above flying platforms in rainy section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -612,12 +612,12 @@
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (Before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2",
+                        "name": "HP Pickup 2 (Before boss room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -649,17 +649,17 @@
                 "access_rules": ["$is_base_open"],
                 "sections": [
                     {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup 1 (Right ledge after start)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup",
+                        "name": "HP Pickup (Below flying platforms section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 2",
+                        "name": "1-Up Pickup 2 (Below flying platforms section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -681,20 +681,15 @@
             },
             {
                 "name": "X Hunter Base Stage 2",
-                "access_rules": [
-                    "$is_base_open,$is_base_two_and_three_and_four_open,legs,crystal_hunter",
-                    "$is_base_open,$is_base_two_and_three_and_four_open,$can_charge,speed_burner",
-                     "base_1_cleared,legs,crystal_hunter",
-                     "base_1_cleared,$can_charge,speed_burner"
-                    ],
+                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
                 "sections": [
                     {
-                        "name": "HP Pickup",
+                        "name": "HP Pickup (Behind Spin Wheel blocks)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": ["spin_wheel"]
                     },
                     {
-                        "name": "1-Up Pickup",
+                        "name": "1-Up Pickup (Behind Spin Wheel blocks)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": ["legs,$can_charge,speed_burner,spin_wheel"]
                     },
@@ -716,67 +711,67 @@
             },
             {
                 "name": "X Hunter Base Stage 3",
-                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "base_2_cleared"],
+                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
+                        "name": "HP Pickup 1 (In Strike Chain hole after start)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["legs,strike_chain"]
+                        "access_rules": ["[legs],strike_chain"]
                     },
                     {
-                        "name": "1-Up Pickup 1",
+                        "name": "1-Up Pickup 1 (In Strike Chain hole after start)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["legs,strike_chain"]
+                        "access_rules": ["[legs],strike_chain"]
                     },
                     {
-                        "name": "HP Pickup 2",
-                        "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
-                    },
-                    {
-                        "name": "HP Pickup 3",
+                        "name": "HP Pickup 2 (Before second moving platform section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 4",
+                        "name": "HP Pickup 3 (Before second moving platform section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 5",
+                        "name": "HP Pickup 4 (Before second moving platform section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 6",
+                        "name": "HP Pickup 5 (Top of second moving platform section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
                     {
-                        "name": "1-Up Pickup 2",
+                        "name": "HP Pickup 6 (Top of second moving platform section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["crystal_hunter"]
+                        "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 7",
+                        "name": "1-Up Pickup 2 (Before charged Speed Burner + air dash section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["crystal_hunter"]
+                        "access_rules": ["[crystal_hunter]"]
                     },
                     {
-                        "name": "HP Pickup 8",
+                        "name": "HP Pickup 7 (Ledge before charged Speed Burner + air dash section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["crystal_hunter"]
+                        "access_rules": ["[crystal_hunter]"]
                     },
                     {
-                        "name": "1-Up Pickup 3",
+                        "name": "HP Pickup 8 (Ledge before charged Speed Burner + air dash section)",
+                        "visibility_rules": [ "pickupsanity_on" ],
+                        "access_rules": ["[crystal_hunter]"]
+                    },
+                    {
+                        "name": "1-Up Pickup 3 (After charged Speed Burner + air dash section)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": ["legs,$can_charge,speed_burner,crystal_hunter"]
                     },
                     {
-                        "name": "1-Up Pickup 4",
+                        "name": "1-Up Pickup 4 (On spikes after last vertical section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["legs","$can_charge,speed_burner"]
+                        "access_rules": ["legs","strike_chain","$can_charge,speed_burner"]
                     },
                     {
                         "name": "Shoryuken Capsule",
@@ -800,7 +795,7 @@
             },
             {
                 "name": "X Hunter Base Stage 4",
-                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "base_3_cleared"],
+                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
                 "sections": [
                     {
                         "name": "Bubble Crab Rematch",
@@ -1042,10 +1037,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1 ",
+                "name": "HP Pickup 1 (Before spike pit)",
                 "sections": [
                     {
-                        "ref": "Stages/Intro Stage/HP Pickup 1"
+                        "ref": "Stages/Intro Stage/HP Pickup 1 (Before spike pit)"
                     }
                 ],
                 "map_locations": [
@@ -1057,10 +1052,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Before boss room)",
                 "sections": [
                     {
-                        "ref": "Stages/Intro Stage/HP Pickup 2"
+                        "ref": "Stages/Intro Stage/HP Pickup 2 (Before boss room)"
                     }
                 ],
                 "map_locations": [
@@ -1128,10 +1123,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup",
+                "name": "1-Up Pickup (Below Spin Wheel blocks before water section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/1-Up Pickup"
+                        "ref": "Stages/Bubble Crab/1-Up Pickup (Below Spin Wheel blocks before water section)"
                     }
                 ],
                 "map_locations": [
@@ -1143,10 +1138,10 @@
                 ]
             },
             {
-                "name": "Weapon Energy Pickup 1",
+                "name": "Weapon Energy Pickup 1 (Top-right ledge in seabed section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 1"
+                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 1 (Top-right ledge in seabed section)"
                     }
                 ],
                 "map_locations": [
@@ -1158,10 +1153,10 @@
                 ]
             },
             {
-                "name": "Weapon Energy Pickup 2",
+                "name": "Weapon Energy Pickup 2 (Artificial cave in seabed section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 2"
+                        "ref": "Stages/Bubble Crab/Weapon Energy Pickup 2 (Artificial cave in seabed section)"
                     }
                 ],
                 "map_locations": [
@@ -1173,10 +1168,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (Ledge before water section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 1"
+                        "ref": "Stages/Bubble Crab/HP Pickup 1 (Ledge before water section)"
                     }
                 ],
                 "map_locations": [
@@ -1188,10 +1183,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Top-right opening above metal floor)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 2"
+                        "ref": "Stages/Bubble Crab/HP Pickup 2 (Top-right opening above metal floor)"
                     }
                 ],
                 "map_locations": [
@@ -1203,10 +1198,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 3",
+                "name": "HP Pickup 3 (First pit in seabed section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 3"
+                        "ref": "Stages/Bubble Crab/HP Pickup 3 (First pit in seabed section)"
                     }
                 ],
                 "map_locations": [
@@ -1218,10 +1213,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 4",
+                "name": "HP Pickup 4 (Artificial cave in seabed section)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 4"
+                        "ref": "Stages/Bubble Crab/HP Pickup 4 (Artificial cave in seabed section)"
                     }
                 ],
                 "map_locations": [
@@ -1233,10 +1228,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 5",
+                "name": "HP Pickup 5 (Fake wall below Sub Tank)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 5"
+                        "ref": "Stages/Bubble Crab/HP Pickup 5 (Fake wall below Sub Tank)"
                     }
                 ],
                 "map_locations": [
@@ -1248,10 +1243,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 6",
+                "name": "HP Pickup 6 (Before boss)",
                 "sections": [
                     {
-                        "ref": "Stages/Bubble Crab/HP Pickup 6"
+                        "ref": "Stages/Bubble Crab/HP Pickup 6 (Before boss)"
                     }
                 ],
                 "map_locations": [
@@ -1333,10 +1328,10 @@
                 ]
             },
             {
-                "name": "Weapon Energy Pickup 1",
+                "name": "Weapon Energy Pickup (Under crystal blocks before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/Weapon Energy Pickup 1"
+                        "ref": "Stages/Crystal Snail/Weapon Energy Pickup (Under crystal blocks before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1348,10 +1343,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 1",
+                "name": "1-Up Pickup 1 (Under crystal blocks before Magna Quartz)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/1-Up Pickup 1"
+                        "ref": "Stages/Crystal Snail/1-Up Pickup 1 (Under crystal blocks before Magna Quartz)"
                     }
                 ],
                 "map_locations": [
@@ -1363,10 +1358,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 2",
+                "name": "1-Up Pickup 2 (Fake ceiling next to Helmet Capsule)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/1-Up Pickup 2"
+                        "ref": "Stages/Crystal Snail/1-Up Pickup 2 (Fake ceiling next to Helmet Capsule)"
                     }
                 ],
                 "map_locations": [
@@ -1378,10 +1373,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (Under crystal blocks before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 1"
+                        "ref": "Stages/Crystal Snail/HP Pickup 1 (Under crystal blocks before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1393,10 +1388,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (After X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 2"
+                        "ref": "Stages/Crystal Snail/HP Pickup 2 (After X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1408,10 +1403,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 3",
+                "name": "HP Pickup 3 (Under crystal blocks before Magna Quartz)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 3"
+                        "ref": "Stages/Crystal Snail/HP Pickup 3 (Under crystal blocks before Magna Quartz)"
                     }
                 ],
                 "map_locations": [
@@ -1423,10 +1418,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 4",
+                "name": "HP Pickup 4 (In giant crystal slide section)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 4"
+                        "ref": "Stages/Crystal Snail/HP Pickup 4 (In giant crystal slide section)"
                     }
                 ],
                 "map_locations": [
@@ -1496,24 +1491,24 @@
                 "name": "Pickup Group",
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
-                        "ref": "Stages/Flame Stag/HP Pickup 1"
+                        "name": "HP Pickup 1 (Cave before first lava section)",
+                        "ref": "Stages/Flame Stag/HP Pickup 1 (Cave before first lava section)"
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
-                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 1"
+                        "name": "Weapon Energy Pickup 1 (Cave before first lava section)",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 1 (Cave before first lava section)"
                     },
                     {
-                        "name": "HP Pickup 2",
-                        "ref": "Stages/Flame Stag/HP Pickup 2"
+                        "name": "HP Pickup 2 (Cave before first lava section)",
+                        "ref": "Stages/Flame Stag/HP Pickup 2 (Cave before first lava section)"
                     },
                     {
-                        "name": "Weapon Energy Pickup 2",
-                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 2"
+                        "name": "Weapon Energy Pickup 2 (Cave before first lava section)",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 2 (Cave before first lava section)"
                     },
                     {
-                        "name": "HP Pickup 3",
-                        "ref": "Stages/Flame Stag/HP Pickup 3"
+                        "name": "HP Pickup 3 (Cave before first lava section)",
+                        "ref": "Stages/Flame Stag/HP Pickup 3 (Cave before first lava section)"
                     }
                 ],
                 "map_locations": [
@@ -1525,10 +1520,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 1",
+                "name": "1-Up Pickup 1 (Top-right of first Beetron section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/1-Up Pickup 1"
+                        "ref": "Stages/Flame Stag/1-Up Pickup 1 (Top-right of first Beetron section)"
                     }
                 ],
                 "map_locations": [
@@ -1540,10 +1535,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 4",
+                "name": "HP Pickup 4 (First ledge in rising lava section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/HP Pickup 4"
+                        "ref": "Stages/Flame Stag/HP Pickup 4 (First ledge in rising lava section)"
                     }
                 ],
                 "map_locations": [
@@ -1555,10 +1550,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 2",
+                "name": "1-Up Pickup 2 (Bottom of rising lava section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/1-Up Pickup 2"
+                        "ref": "Stages/Flame Stag/1-Up Pickup 2 (Bottom of rising lava section)"
                     }
                 ],
                 "map_locations": [
@@ -1573,12 +1568,12 @@
                 "name": "Pickup Group 2",
                 "sections": [
                     {
-                        "name": "HP Pickup 5",
-                        "ref": "Stages/Flame Stag/HP Pickup 5"
+                        "name": "HP Pickup 5 (Second ledge in rising lava section)",
+                        "ref": "Stages/Flame Stag/HP Pickup 5 (Second ledge in rising lava section)"
                     },
                     {
-                        "name": "Weapon Energy Pickup 3",
-                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 3"
+                        "name": "Weapon Energy Pickup 3 (Second ledge in rising lava section)",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 3 (Second ledge in rising lava section)"
                     }
                 ],
                 "map_locations": [
@@ -1590,10 +1585,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 6",
+                "name": "HP Pickup 6 (After rising lava section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/HP Pickup 6"
+                        "ref": "Stages/Flame Stag/HP Pickup 6 (After rising lava section)"
                     }
                 ],
                 "map_locations": [
@@ -1608,12 +1603,12 @@
                 "name": "Pickup Group 3",
                 "sections": [
                     {
-                        "name": "HP Pickup 7",
-                        "ref": "Stages/Flame Stag/HP Pickup 7"
+                        "name": "HP Pickup 7 (Bottom-left of lava cave section)",
+                        "ref": "Stages/Flame Stag/HP Pickup 7 (Bottom-left of lava cave section)"
                     },
                     {
-                        "name": "Weapon Energy Pickup 4",
-                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 4"
+                        "name": "Weapon Energy Pickup 4 (Bottom-left of lava cave section)",
+                        "ref": "Stages/Flame Stag/Weapon Energy Pickup 4 (Bottom-left of lava cave section)"
                     }
                 ],
                 "map_locations": [
@@ -1625,10 +1620,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 3",
+                "name": "1-Up Pickup 3 (Above third pillar in lava cave section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/1-Up Pickup 3"
+                        "ref": "Stages/Flame Stag/1-Up Pickup 3 (Above third pillar in lava cave section)"
                     }
                 ],
                 "map_locations": [
@@ -1640,10 +1635,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 8",
+                "name": "HP Pickup 8 (Before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/HP Pickup 8"
+                        "ref": "Stages/Flame Stag/HP Pickup 8 (Before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1655,10 +1650,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 9",
+                "name": "HP Pickup 9 (Ledge in gas pipes section)",
                 "sections": [
                     {
-                        "ref": "Stages/Flame Stag/HP Pickup 9"
+                        "ref": "Stages/Flame Stag/HP Pickup 9 (Ledge in gas pipes section)"
                     }
                 ],
                 "map_locations": [
@@ -1725,10 +1720,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (After Chop Register)",
                 "sections": [
                     {
-                        "ref": "Stages/Magna Centipede/HP Pickup 1"
+                        "ref": "Stages/Magna Centipede/HP Pickup 1 (After Chop Register)"
                     }
                 ],
                 "map_locations": [
@@ -1740,10 +1735,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Magna Centipede/HP Pickup 2"
+                        "ref": "Stages/Magna Centipede/HP Pickup 2 (Before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1870,10 +1865,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (Before vertical ladder section)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/HP Pickup 1"
+                        "ref": "Stages/Morph Moth/HP Pickup 1 (Before vertical ladder section)"
                     }
                 ],
                 "map_locations": [
@@ -1885,10 +1880,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Left ledge in vertical ladder section)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/HP Pickup 2"
+                        "ref": "Stages/Morph Moth/HP Pickup 2 (Left ledge in vertical ladder section)"
                     }
                 ],
                 "map_locations": [
@@ -1900,10 +1895,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 3",
+                "name": "HP Pickup 3 (Right ledge in vertical ladder section)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/HP Pickup 3"
+                        "ref": "Stages/Morph Moth/HP Pickup 3 (Right ledge in vertical ladder section)"
                     }
                 ],
                 "map_locations": [
@@ -1915,10 +1910,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 4",
+                "name": "HP Pickup 4 (Bottom of magnet ceiling section)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/HP Pickup 4"
+                        "ref": "Stages/Morph Moth/HP Pickup 4 (Bottom of magnet ceiling section)"
                     }
                 ],
                 "map_locations": [
@@ -1930,10 +1925,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 5",
+                "name": "HP Pickup 5 (Bottom of magnet ceiling section)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/HP Pickup 5"
+                        "ref": "Stages/Morph Moth/HP Pickup 5 (Bottom of magnet ceiling section)"
                     }
                 ],
                 "map_locations": [
@@ -1945,10 +1940,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 1",
+                "name": "1-Up Pickup 1 (Left of Heart Tank)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/1-Up Pickup 1"
+                        "ref": "Stages/Morph Moth/1-Up Pickup 1 (Left of Heart Tank)"
                     }
                 ],
                 "map_locations": [
@@ -1960,10 +1955,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 2",
+                "name": "1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1)",
                 "sections": [
                     {
-                        "ref": "Stages/Morph Moth/1-Up Pickup 2"
+                        "ref": "Stages/Morph Moth/1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1)"
                     }
                 ],
                 "map_locations": [
@@ -2000,10 +1995,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Overdrive Ostrich/HP Pickup 1"
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -2015,10 +2010,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup",
+                "name": "1-Up Pickup (Top-right ledge in outdoors bike section)",
                 "sections": [
                     {
-                        "ref": "Stages/Overdrive Ostrich/1-Up Pickup"
+                        "ref": "Stages/Overdrive Ostrich/1-Up Pickup (Top-right ledge in outdoors bike section)"
                     }
                 ],
                 "map_locations": [
@@ -2033,20 +2028,20 @@
                 "name": "Spike Pickups",
                 "sections": [
                     {
-                        "name": "Weapon Energy Pickup 1",
-                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 1"
+                        "name": "Weapon Energy Pickup 1 (On spikes before Legs Capsule)",
+                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 1 (On spikes before Legs Capsule)"
                     },
                     {
-                        "name": "HP Pickup 2",
-                        "ref": "Stages/Overdrive Ostrich/HP Pickup 2"
+                        "name": "HP Pickup 2 (On spikes before Legs Capsule)",
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 2 (On spikes before Legs Capsule)"
                     },
                     {
-                        "name": "Weapon Energy Pickup 2",
-                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 2"
+                        "name": "Weapon Energy Pickup 2 (On spikes before Legs Capsule)",
+                        "ref": "Stages/Overdrive Ostrich/Weapon Energy Pickup 2 (On spikes before Legs Capsule)"
                     },
                     {
-                        "name": "HP Pickup 3",
-                        "ref": "Stages/Overdrive Ostrich/HP Pickup 3"
+                        "name": "HP Pickup 3 (On spikes before Legs Capsule)",
+                        "ref": "Stages/Overdrive Ostrich/HP Pickup 3 (On spikes before Legs Capsule)"
                     },
                     {
                         "name": "Heart Tank",
@@ -2117,10 +2112,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (High ledge after spikes section)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/HP Pickup 1"
+                        "ref": "Stages/Wheel Gator/HP Pickup 1 (High ledge after spikes section)"
                     }
                 ],
                 "map_locations": [
@@ -2132,10 +2127,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Ledge before Ride Armor)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/HP Pickup 2"
+                        "ref": "Stages/Wheel Gator/HP Pickup 2 (Ledge before Ride Armor)"
                     }
                 ],
                 "map_locations": [
@@ -2162,10 +2157,10 @@
                 ]
             },
             {
-                "name": "Weapon Energy Pickup 1",
+                "name": "Weapon Energy Pickup (Ledge in left elevator exit)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/Weapon Energy Pickup 1"
+                        "ref": "Stages/Wheel Gator/Weapon Energy Pickup (Ledge in left elevator exit)"
                     }
                 ],
                 "map_locations": [
@@ -2177,10 +2172,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup",
+                "name": "1-Up Pickup (Top of elevator)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/1-Up Pickup"
+                        "ref": "Stages/Wheel Gator/1-Up Pickup (Top of elevator)"
                     }
                 ],
                 "map_locations": [
@@ -2192,10 +2187,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 3",
+                "name": "HP Pickup 3 (Hidden behind top column after X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/HP Pickup 3"
+                        "ref": "Stages/Wheel Gator/HP Pickup 3 (Hidden behind top column after X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -2207,10 +2202,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 4",
+                "name": "HP Pickup 4 (Ledge before boss room)",
                 "sections": [
                     {
-                        "ref": "Stages/Wheel Gator/HP Pickup 4"
+                        "ref": "Stages/Wheel Gator/HP Pickup 4 (Ledge before boss room)"
                     }
                 ],
                 "map_locations": [
@@ -2225,16 +2220,16 @@
                 "name": "Hidden HP Pickups",
                 "sections": [
                     {
-                        "name": "HP Pickup 5",
-                        "ref": "Stages/Wheel Gator/HP Pickup 5"
+                        "name": "HP Pickup 5 (Hidden behind metal slope in exterior section)",
+                        "ref": "Stages/Wheel Gator/HP Pickup 5 (Hidden behind metal slope in exterior section)"
                     },
                     {
-                        "name": "HP Pickup 6",
-                        "ref": "Stages/Wheel Gator/HP Pickup 6"
+                        "name": "HP Pickup 6 (Hidden behind metal slope in exterior section)",
+                        "ref": "Stages/Wheel Gator/HP Pickup 6 (Hidden behind metal slope in exterior section)"
                     },
                     {
-                        "name": "HP Pickup 7",
-                        "ref": "Stages/Wheel Gator/HP Pickup 7"
+                        "name": "HP Pickup 7 (Hidden behind metal slope in exterior section)",
+                        "ref": "Stages/Wheel Gator/HP Pickup 7 (Hidden behind metal slope in exterior section)"
                     }
                 ],
                 "map_locations": [
@@ -2286,10 +2281,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 1",
+                "name": "1-Up Pickup (Above flying platforms in rainy section)",
                 "sections": [
                     {
-                        "ref": "Stages/Wire Sponge/1-Up Pickup 1"
+                        "ref": "Stages/Wire Sponge/1-Up Pickup (Above flying platforms in rainy section)"
                     }
                 ],
                 "map_locations": [
@@ -2316,10 +2311,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 1",
+                "name": "HP Pickup 1 (Before X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Wire Sponge/HP Pickup 1"
+                        "ref": "Stages/Wire Sponge/HP Pickup 1 (Before X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -2331,10 +2326,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2",
+                "name": "HP Pickup 2 (Before boss room)",
                 "sections": [
                     {
-                        "ref": "Stages/Wire Sponge/HP Pickup 2"
+                        "ref": "Stages/Wire Sponge/HP Pickup 2 (Before boss room)"
                     }
                 ],
                 "map_locations": [
@@ -2351,10 +2346,10 @@
         "name": "X Hunter Base Stage 1",
         "children": [
             {
-                "name": "1-Up Pickup 1",
+                "name": "1-Up Pickup 1 (Right ledge after start)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 1"
+                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 1 (Right ledge after start)"
                     }
                 ],
                 "map_locations": [
@@ -2369,12 +2364,12 @@
                 "name": "Pickups",
                 "sections": [
                     {
-                        "name": "HP Pickup",
-                        "ref": "Stages/X Hunter Base Stage 1/HP Pickup"
+                        "name": "HP Pickup (Below flying platforms section)",
+                        "ref": "Stages/X Hunter Base Stage 1/HP Pickup (Below flying platforms section)"
                     },
                     {
-                        "name": "1-Up Pickup 2",
-                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 2"
+                        "name": "1-Up Pickup 2 (Below flying platforms section)",
+                        "ref": "Stages/X Hunter Base Stage 1/1-Up Pickup 2 (Below flying platforms section)"
                     }
                 ],
                 "map_locations": [
@@ -2406,10 +2401,10 @@
         "name": "X Hunter Base Stage 2",
         "children": [
             {
-                "name": "1-Up Pickup",
+                "name": "1-Up Pickup (Behind Spin Wheel blocks)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 2/1-Up Pickup"
+                        "ref": "Stages/X Hunter Base Stage 2/1-Up Pickup (Behind Spin Wheel blocks)"
                     }
                 ],
                 "map_locations": [
@@ -2421,10 +2416,10 @@
                 ]
             },
             {
-                "name": "HP Pickup",
+                "name": "HP Pickup (Behind Spin Wheel blocks)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 2/HP Pickup"
+                        "ref": "Stages/X Hunter Base Stage 2/HP Pickup (Behind Spin Wheel blocks)"
                     }
                 ],
                 "map_locations": [
@@ -2459,12 +2454,12 @@
                 "name": "Ledge 1",
                 "sections": [
                     {
-                        "name": "HP Pickup 1",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 1"
+                        "name": "HP Pickup 1 (In Strike Chain hole after start)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 1 (In Strike Chain hole after start)"
                     },
                     {
-                        "name": "1-Up Pickup 1",
-                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 1"
+                        "name": "1-Up Pickup 1 (In Strike Chain hole after start)",
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 1 (In Strike Chain hole after start)"
                     }
                 ],
                 "map_locations": [
@@ -2479,16 +2474,16 @@
                 "name": "Ledge 2",
                 "sections": [
                     {
-                        "name": "HP Pickup 2",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 2"
+                        "name": "HP Pickup 2 (Before second moving platform section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 2 (Before second moving platform section)"
                     },
                     {
-                        "name": "HP Pickup 3",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 3"
+                        "name": "HP Pickup 3 (Before second moving platform section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 3 (Before second moving platform section)"
                     },
                     {
-                        "name": "HP Pickup 4",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 4"
+                        "name": "HP Pickup 4 (Before second moving platform section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 4 (Before second moving platform section)"
                     }
                 ],
                 "map_locations": [
@@ -2503,12 +2498,12 @@
                 "name": "Ledge 3",
                 "sections": [
                     {
-                        "name": "HP Pickup 5",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 5"
+                        "name": "HP Pickup 5 (Top of second moving platform section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 5 (Top of second moving platform section)"
                     },
                     {
-                        "name": "HP Pickup 6",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 6"
+                        "name": "HP Pickup 6 (Top of second moving platform section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 6 (Top of second moving platform section)"
                     }
                 ],
                 "map_locations": [
@@ -2520,10 +2515,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 2",
+                "name": "1-Up Pickup 2 (Before charged Speed Burner + air dash section)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 2"
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 2 (Before charged Speed Burner + air dash section)"
                     }
                 ],
                 "map_locations": [
@@ -2538,12 +2533,12 @@
                 "name": "Ledge 4",
                 "sections": [
                     {
-                        "name": "HP Pickup 7",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 7"
+                        "name": "HP Pickup 7 (Ledge before charged Speed Burner + air dash section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 7 (Ledge before charged Speed Burner + air dash section)"
                     },
                     {
-                        "name": "HP Pickup 8",
-                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 8"
+                        "name": "HP Pickup 8 (Ledge before charged Speed Burner + air dash section)",
+                        "ref": "Stages/X Hunter Base Stage 3/HP Pickup 8 (Ledge before charged Speed Burner + air dash section)"
                     }
                 ],
                 "map_locations": [
@@ -2555,10 +2550,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 3",
+                "name": "1-Up Pickup 3 (After charged Speed Burner + air dash section)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 3"
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 3 (After charged Speed Burner + air dash section)"
                     }
                 ],
                 "map_locations": [
@@ -2570,10 +2565,10 @@
                 ]
             },
             {
-                "name": "1-Up Pickup 4",
+                "name": "1-Up Pickup 4 (On spikes after last vertical section)",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 4"
+                        "ref": "Stages/X Hunter Base Stage 3/1-Up Pickup 4 (On spikes after last vertical section)"
                     }
                 ],
                 "map_locations": [
