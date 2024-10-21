@@ -220,7 +220,7 @@
     },
     {
       "name": "Legs Upgrade",
-      "type": "consumable",
+      "type": "toggle",
       "img": "images/icons/legs.png",
       "disabled_img": "images/icons/legs_gray.png",
       "codes": "legs"
