@@ -464,7 +464,7 @@
                         "access_rules": []
                     },
                     {
-                        "name": "Weapon Energy Pickup 1",
+                        "name": "Weapon Energy Pickup 1 (On spikes before Legs Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
