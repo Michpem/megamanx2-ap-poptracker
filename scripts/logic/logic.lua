@@ -205,7 +205,7 @@ WEAPON_CHECKS = {
     --[0x02] = function() return can_charge() end, --"Charged Shot (Level 3, Bullet Stream)",
     [0x03] = function() return Tracker:FindObjectForCode("arms").CurrentStage >= 1 end, --"Charged Shot (Level 2)",
     [0x04] = function() return is_active("shoryuken") end, --"Shoryuken",
-    [0x06] = function() return Tracker:FindObjectForCode("legs").CurrentStage >= 1 end, --"Lemon (Dash)",
+    [0x06] = function() return true end, --"Lemon (Dash)",
     [0x07] = function() return is_active("crystal_hunter") end, --"Uncharged Crystal Hunter",
     [0x08] = function() return is_active("bubble_splash") end, --"Uncharged Bubble Splash",
     [0x09] = function() return is_active("silk_shot") end, --"Uncharged Silk Shot (Rocks)",

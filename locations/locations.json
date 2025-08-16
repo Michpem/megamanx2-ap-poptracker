@@ -135,7 +135,12 @@
                     {
                         "name": "HP Pickup 2 (After X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["agile_state_1", "serges_state_1", "violen_state_1"]
+                        "access_rules": [ 
+							"agile_state_1,$has_weakness_for|Agile", 
+							"serges_state_1,$has_weakness_for|Serges", 
+							"violen_state_1,$has_weakness_for|Violen",
+                            "$boss_other_damage_possible,[$boss_weaknesses_not_required]"
+						]
                     },
                     {
                         "name": "HP Pickup 3 (Under crystal blocks before Magna Quartz)",
@@ -157,28 +162,39 @@
                     {
                         "name": "HP Pickup 4 (In giant crystal slide section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+							"$has_weakness_for|Magna Quartz", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+						]
                     },
                     {
                         "name": "Helmet Capsule",
-                        "access_rules": []
+                        "access_rules": [
+							"$has_weakness_for|Magna Quartz", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+						]
                     },
                     {
                         "name": "1-Up Pickup 2 (Fake ceiling next to Helmet Capsule)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+							"$has_weakness_for|Magna Quartz", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+						]
                     },
                     {
                         "name": "Crystal Snail",
                         "access_rules": [
-                            "$has_weakness_for|Crystal Snail",
+                            "$has_weakness_for|Magna Quartz,$has_weakness_for|Crystal Snail",
+							"$has_weakness_for|Crystal Snail,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     },
                     {
                         "name": "Stage Clear",
-                        "access_rules": [
-                            "$has_weakness_for|Crystal Snail",
+                        "access_rules":  [
+                            "$has_weakness_for|Magna Quartz,$has_weakness_for|Crystal Snail",
+							"$has_weakness_for|Crystal Snail,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     }
@@ -328,31 +344,40 @@
                     {
                         "name": "HP Pickup 1 (After Chop Register)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Chop Register", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "HP Pickup 2 (Before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Chop Register", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "Raider Killer",
                         "access_rules": [
-                            "$has_weakness_for|Raider Killer",
+                            "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer", 
+							"helmet,$has_weakness_for|Raider Killer",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     },
                     {
                         "name": "Magna Centipede",
                         "access_rules": [
-                            "$has_weakness_for|Magna Centipede",
+                            "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer,$has_weakness_for|Magna Centipede",
+							"$has_weakness_for|Magna Centipede,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
-                            "$has_weakness_for|Magna Centipede",
+                            "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer,$has_weakness_for|Magna Centipede",
+							"$has_weakness_for|Magna Centipede,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     }
@@ -397,27 +422,42 @@
                     {
                         "name": "HP Pickup 1 (Before vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "HP Pickup 2 (Left ledge in vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "HP Pickup 3 (Right ledge in vertical ladder section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "HP Pickup 4 (Bottom of magnet ceiling section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "HP Pickup 5 (Bottom of magnet ceiling section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": []
+                        "access_rules": [
+                            "$has_weakness_for|Pararoid S-38", "helmet",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                        ]
                     },
                     {
                         "name": "Pararoid S-38 #2",
@@ -429,14 +469,16 @@
                     {
                         "name": "Morph Moth",
                         "access_rules": [
-                            "$has_weakness_for|Morph Moth",
+                            "$has_weakness_for|Pararoid S-38,$has_weakness_for|Morph Moth",
+							"$has_weakness_for|Morph Moth,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
-                            "$has_weakness_for|Morph Moth",
+                            "$has_weakness_for|Pararoid S-38,$has_weakness_for|Morph Moth",
+							"$has_weakness_for|Morph Moth,helmet",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
                         ]
                     }
@@ -520,7 +562,7 @@
                 "sections": [
                     {
                         "name": "Arms Capsule",
-                        "access_rules": ["legs", "$can_charge,speed_burner"]
+                        "access_rules": ["legs", "$can_charge,speed_burner", "[legs]", "[$can_charge,speed_burner]"]
                     },
                     {
                         "name": "HP Pickup 1 (High ledge after spikes section)",
@@ -534,7 +576,7 @@
                     },
                     {
                         "name": "Heart Tank",
-                        "access_rules": ["$can_charge,speed_burner"]
+                        "access_rules": ["$can_charge,speed_burner", "[$can_charge,speed_burner]"]
                     },
                     {
                         "name": "Weapon Energy Pickup (Ledge in left elevator exit)",
