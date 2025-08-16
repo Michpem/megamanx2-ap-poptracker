@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "1.0.0",
-            "download_url": "https://github.com/michpem/megamanx2-ap-poptracker/releases/download/v1.0.0/megamanx2-ap-poptracker.zip",
-            "sha256": "0",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.0/megamanx2-ap-poptracker.zip",
+            "sha256": "6762ead977ad6f31e9487d6e1ccb3245a06210e6c6b93d985dd38619d9082f06",
             "changelog": [
                 "Initial release"
             ]
