@@ -1,7 +1,7 @@
-﻿{
+{
     "name": "Mega Man X2 Archipelago",
     "game_name": "Mega Man X2",
-    "package_version": "0.0.1",
+    "package_version": "1.0.0",
     "package_uid": "megamanx2_meridianbc",
     "platform": "pc",
     "author": "MeridianBC",
@@ -13,5 +13,5 @@
             ]
         }
     },
-    "versions_url": "https://raw.githubusercontent.com/BrianCumminger/megamanx2-ap-poptracker/master/versions.json"
+    "versions_url": "https://raw.githubusercontent.com/Michpem/megamanx2-ap-poptracker/refs/heads/master/versions.json"
 }
