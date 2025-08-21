@@ -95,14 +95,16 @@
                         "name": "Bubble Crab",
                         "access_rules": [
                             "$has_weakness_for|Bubble Crab",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
                             "$has_weakness_for|Bubble Crab",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -139,7 +141,8 @@
 							"agile_state_1,$has_weakness_for|Agile", 
 							"serges_state_1,$has_weakness_for|Serges", 
 							"violen_state_1,$has_weakness_for|Violen",
-                            "$boss_other_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_other_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
 						]
                     },
                     {
@@ -156,7 +159,8 @@
                         "name": "Magna Quartz",
                         "access_rules": [
                             "$has_weakness_for|Magna Quartz",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -164,14 +168,16 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
 							"$has_weakness_for|Magna Quartz", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"					
 						]
                     },
                     {
                         "name": "Helmet Capsule",
                         "access_rules": [
 							"$has_weakness_for|Magna Quartz", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"					
 						]
                     },
                     {
@@ -179,7 +185,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
 							"$has_weakness_for|Magna Quartz", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"					
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"					
 						]
                     },
                     {
@@ -187,7 +194,8 @@
                         "access_rules": [
                             "$has_weakness_for|Magna Quartz,$has_weakness_for|Crystal Snail",
 							"$has_weakness_for|Crystal Snail,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -195,7 +203,8 @@
                         "access_rules":  [
                             "$has_weakness_for|Magna Quartz,$has_weakness_for|Crystal Snail",
 							"$has_weakness_for|Crystal Snail,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -303,14 +312,16 @@
                         "name": "Flame Stag",
                         "access_rules": [
                             "$has_weakness_for|Flame Stag",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
                             "$has_weakness_for|Flame Stag",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -338,7 +349,8 @@
                         "name": "Chop Register",
                         "access_rules": [
                             "$has_weakness_for|Chop Register",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -346,7 +358,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Chop Register", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -354,7 +367,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Chop Register", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -362,7 +376,8 @@
                         "access_rules": [
                             "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer", 
 							"helmet,$has_weakness_for|Raider Killer",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -370,7 +385,8 @@
                         "access_rules": [
                             "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer,$has_weakness_for|Magna Centipede",
 							"$has_weakness_for|Magna Centipede,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -378,7 +394,8 @@
                         "access_rules": [
                             "$has_weakness_for|Chop Register,$has_weakness_for|Raider Killer,$has_weakness_for|Magna Centipede",
 							"$has_weakness_for|Magna Centipede,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -416,7 +433,8 @@
                         "name": "Pararoid S-38 #1",
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -424,7 +442,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -432,7 +451,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -440,7 +460,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -448,7 +469,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -456,14 +478,16 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38", "helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Pararoid S-38 #2",
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -471,7 +495,8 @@
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38,$has_weakness_for|Morph Moth",
 							"$has_weakness_for|Morph Moth,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -479,7 +504,8 @@
                         "access_rules": [
                             "$has_weakness_for|Pararoid S-38,$has_weakness_for|Morph Moth",
 							"$has_weakness_for|Morph Moth,helmet",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -498,7 +524,7 @@
                     {
                         "name": "HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["spin_wheel"]
+                        "access_rules": ["spin_wheel", "[never],shoryuken"]
                     },
                     {
                         "name": "1-Up Pickup (Top-right ledge in outdoors bike section)",
@@ -531,20 +557,22 @@
                     },
                     {
                         "name": "Legs Capsule",
-                        "access_rules": ["spin_wheel"]
+                        "access_rules": ["spin_wheel", "[never],shoryuken"]
                     },
                     {
                         "name": "Overdrive Ostrich",
                         "access_rules": [
                             "$has_weakness_for|Overdrive Ostrich",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
                             "$has_weakness_for|Overdrive Ostrich",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -576,7 +604,7 @@
                     },
                     {
                         "name": "Heart Tank",
-                        "access_rules": ["$can_charge,speed_burner", "[$can_charge,speed_burner]"]
+                        "access_rules": ["$can_charge,speed_burner", "[$can_charge,speed_burner]", "[never],shoryuken"]
                     },
                     {
                         "name": "Weapon Energy Pickup (Ledge in left elevator exit)",
@@ -617,14 +645,16 @@
                         "name": "Wheel Gator",
                         "access_rules": [
                             "$has_weakness_for|Wheel Gator",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
                             "$has_weakness_for|Wheel Gator",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -667,14 +697,16 @@
                         "name": "Wire Sponge",
                         "access_rules": [
                             "$has_weakness_for|Wire Sponge",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Stage Clear",
                         "access_rules": [
                             "$has_weakness_for|Wire Sponge",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -709,7 +741,8 @@
                         "name": "Neo Violen",
                         "access_rules": [
                             "$has_weakness_for|Neo Violen",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -739,7 +772,8 @@
                         "name": "Serges Tank",
                         "access_rules": [
                             "$has_weakness_for|Serges Tank",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -823,7 +857,8 @@
                         "name": "Agile Flyer",
                         "access_rules": [
                             "$has_weakness_for|Agile Flyer",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],
@@ -843,56 +878,64 @@
                         "name": "Bubble Crab Rematch",
                         "access_rules": [
                             "$has_weakness_for|Bubble Crab",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Crystal Snail Rematch",
                         "access_rules": [
                             "$has_weakness_for|Crystal Snail",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Flame Stag Rematch",
                         "access_rules": [
                             "$has_weakness_for|Flame Stag",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Magna Centipede Rematch",
                         "access_rules": [
                             "$has_weakness_for|Magna Centipede",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Morph Moth Rematch",
                         "access_rules": [
                             "$has_weakness_for|Morph Moth",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Overdrive Ostrich Rematch",
                         "access_rules": [
                             "$has_weakness_for|Overdrive Ostrich",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Wheel Gator Rematch",
                         "access_rules": [
                             "$has_weakness_for|Wheel Gator",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Wire Sponge Rematch",
                         "access_rules": [
                             "$has_weakness_for|Wire Sponge",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
@@ -916,14 +959,16 @@
                         "name": "Zero",
                         "access_rules": [
                             "$has_weakness_for|Zero",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     },
                     {
                         "name": "Sigma",
                         "access_rules": [
                             "$has_weakness_for|Sigma,$has_weakness_for|Sigma Virus",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]"
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken"
                         ]
                     }
                 ],

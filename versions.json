@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+			"package_version": "1.0.1",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.1/megamanx2-ap-poptracker.zip",
+            "sha256": "849D29378B5988AB3F6B67491286A4F21A7B03D57D1DCD4B6543D0D2D0C0CE79",
+            "changelog": [
+                "Added yellow logic for some Spin Wheel blocks if you have Shoryuken",
+				"Added Shoryuken boss damage logic"
+            ]
+		},
+		{
             "package_version": "1.0.0",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.0/megamanx2-ap-poptracker.zip",
             "sha256": "6762ead977ad6f31e9487d6e1ccb3245a06210e6c6b93d985dd38619d9082f06",
