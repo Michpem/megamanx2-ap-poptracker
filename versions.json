@@ -1,9 +1,18 @@
 {
     "versions": [
+	    {
+			"package_version": "1.0.2",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.2/megamanx2-ap-poptracker.zip",
+            "sha256": "0BE3E9F4607FA03399E59AAD016EE60562D2D031F2DFD0E80FBEABB1CDDAB1C9",
+            "changelog": [
+                "Added weakness rules for the X-Hunters",
+				"Fixed HP Pickup 2 in Crystal Snail so that it accounts for X-Hunter fights access"
+            ]
+		},
         {
 			"package_version": "1.0.1",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.1/megamanx2-ap-poptracker.zip",
-            "sha256": "849D29378B5988AB3F6B67491286A4F21A7B03D57D1DCD4B6543D0D2D0C0CE79",
+            "sha256": "15628687A6EC45AB001B331CAD90CB6A87C81290659141EBA4496B85FB2E584A",
             "changelog": [
                 "Added yellow logic for some Spin Wheel blocks if you have Shoryuken",
 				"Added Shoryuken boss damage logic"
