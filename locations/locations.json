@@ -989,8 +989,8 @@
                         "hosted_item": "",
                         "access_rules": [
 							"agile_state_1,$has_weakness_for|Agile",
-							"$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],shoryuken"
+							"serges_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],serges_state_1,shoryuken"
 						]
                     }
                 ],
@@ -1011,8 +1011,8 @@
                         "hosted_item": "",
                         "access_rules": [
 							"serges_state_1,$has_weakness_for|Serges",
-							"$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],shoryuken"
+							"serges_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],serges_state_1,shoryuken"
 						]
                     }
                 ],
@@ -1033,8 +1033,8 @@
                         "hosted_item": "",
                         "access_rules": [
 							"violen_state_1,$has_weakness_for|Violen",
-							"$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],shoryuken"
+							"violen_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],violen_state_1,shoryuken"
 						]
                     }
                 ],
