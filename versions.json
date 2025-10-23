@@ -2,7 +2,7 @@
     "versions": [
 	    {
 			"package_version": "1.0.3",
-            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.2/megamanx2-ap-poptracker.zip",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.3/megamanx2-ap-poptracker.zip",
             "sha256": "9D46DF2B15086725ECFE13ACA5D98D4B087764A2726E325C48C2CF0D8D445179",
             "changelog": [
                 "Fixed the Serges Tank location not considering the weakness for the second phase"
@@ -37,5 +37,6 @@
     ]
 
 }
+
 
 
