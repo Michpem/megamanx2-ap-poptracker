@@ -771,7 +771,7 @@
                     {
                         "name": "Serges Tank",
                         "access_rules": [
-                            "$has_weakness_for|Serges Tank",
+                            "$has_weakness_for|Serges Tank,$has_weakness_for|Serges",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
 							"[never],shoryuken"
                         ]
