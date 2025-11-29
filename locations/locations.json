@@ -761,12 +761,18 @@
                     {
                         "name": "HP Pickup (Behind Spin Wheel blocks)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["spin_wheel"]
+                        "access_rules": [
+							"spin_wheel",
+							"[never],shoryuken"
+						]
                     },
                     {
                         "name": "1-Up Pickup (Behind Spin Wheel blocks)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["legs,$can_charge,speed_burner,spin_wheel"]
+                        "access_rules": [
+							"legs,$can_charge,speed_burner,spin_wheel",
+							"[never],shoryuken,legs,$can_charge,speed_burner"
+						]
                     },
                     {
                         "name": "Serges Tank",
@@ -842,7 +848,7 @@
                     {
                         "name": "1-Up Pickup 3 (After charged Speed Burner + air dash section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["legs,$can_charge,speed_burner,crystal_hunter"]
+                        "access_rules": ["legs,$can_charge,speed_burner,[crystal_hunter]"]
                     },
                     {
                         "name": "1-Up Pickup 4 (On spikes after last vertical section)",
@@ -851,7 +857,7 @@
                     },
                     {
                         "name": "Shoryuken Capsule",
-                        "access_rules": ["legs,$can_charge,speed_burner,crystal_hunter"]
+                        "access_rules": ["legs,$can_charge,speed_burner,[crystal_hunter]"]
                     },
                     {
                         "name": "Agile Flyer",

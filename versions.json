@@ -1,6 +1,15 @@
 {
     "versions": [
 	    {
+			"package_version": "1.0.4",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.4/megamanx2-ap-poptracker.zip",
+            "sha256": "",
+            "changelog": [
+                "X Hunter Base Stage 2 - HP Pickup and 1-Up Pickup: Added yellow logic with Shoryuken",
+				"X Hunter Base Stage 3 - 1-Up Pickup 3 and Shoryuken Capsule: Made Crystal Hunter optional (yellow logic)"
+            ]
+		},
+	    {
 			"package_version": "1.0.3",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.3/megamanx2-ap-poptracker.zip",
             "sha256": "9D46DF2B15086725ECFE13ACA5D98D4B087764A2726E325C48C2CF0D8D445179",
