@@ -141,6 +141,30 @@
         "disabled_img": "images/icons/shoryuken_gray.png",
         "codes": "shoryuken"
     },
+	
+    {
+        "name": "Quick Charge Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_quick_charge.png",
+        "disabled_img": "images/icons/chip_quick_charge_gray.png",
+        "codes": "chip_quick_charge"
+    },
+
+    {
+        "name": "Speedster Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_speedster.png",
+        "disabled_img": "images/icons/chip_speedster_gray.png",
+        "codes": "chip_speedster"
+    },
+	
+    {
+        "name": "Super Recover Chip",
+        "type": "toggle",
+        "img": "images/icons/chip_super_recover.png",
+        "disabled_img": "images/icons/chip_super_recover_gray.png",
+        "codes": "chip_super_recover"
+    },
 
     {
         "name": "Heart Tank",

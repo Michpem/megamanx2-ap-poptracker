@@ -22,7 +22,7 @@
                             ["sonic_slicer", "bubble_splash", "spin_wheel", "crystal_hunter"],
                             ["helmet", "body", "arms", "legs"],
                             ["heart_tank", "sub_tank", "shoryuken","maverick_medal"],
-                            ["auto_tab_switch", "", "", ""]
+                            ["chip_quick_charge", "chip_speedster", "chip_super_recover", "auto_tab_switch"]
                         ]
                     }
                 ]
