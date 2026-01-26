@@ -3,7 +3,7 @@
 	    {
 			"package_version": "1.0.5",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.5/megamanx2-ap-poptracker.zip",
-            "sha256": "",
+            "sha256": "2a379fde870114ea642c4c45d34a1e03f092221f772bec8232fbd4e588a2ca28",
             "changelog": [
 				"Added the Enhancement Chip items to the tracker"
             ]
@@ -54,6 +54,7 @@
     ]
 
 }
+
 
 
 
