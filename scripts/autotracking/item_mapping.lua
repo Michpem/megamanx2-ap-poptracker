@@ -1,4 +1,4 @@
-local STARTING_ID = 0xBE0800
+local STARTING_ID = 0xBE0C00
 ITEM_MAPPING = {
     [STARTING_ID + 0x00] = {"victory", "toggle"},
     [STARTING_ID + 0x01] = {"maverick_medal", "consumable"},
@@ -22,7 +22,6 @@ ITEM_MAPPING = {
     [STARTING_ID + 0x10] = {"crystal_hunter", "toggle"},
     [STARTING_ID + 0x11] = {"sonic_slicer", "toggle"},
     [STARTING_ID + 0x12] = {"strike_chain", "toggle"},
-	
     [STARTING_ID + 0x1A] = {"shoryuken", "toggle"},
 
     [STARTING_ID + 0x13] = {"heart_tank", "consumable"},
@@ -30,14 +29,14 @@ ITEM_MAPPING = {
 
     [STARTING_ID + 0x1C] = {"helmet", "toggle"},
     [STARTING_ID + 0x1D] = {"body", "toggle"},
-    [STARTING_ID + 0x1E] = {"arms_mapped", "consumable"},
+    [STARTING_ID + 0x1E] = {"arms_mapped", "progressive"},
     [STARTING_ID + 0x1F] = {"legs", "toggle"},
 
     [STARTING_ID + 0x30] = {"small_hp", "consumable"},
     [STARTING_ID + 0x31] = {"large_hp", "consumable"},
     [STARTING_ID + 0x34] = {"life", "consumable"},
-	
-	[STARTING_ID + 0x40] = {"chip_quick_charge", "toggle"},
-	[STARTING_ID + 0x41] = {"chip_speedster", "toggle"},
-	[STARTING_ID + 0x42] = {"chip_super_recover", "toggle"}
+
+    [STARTING_ID + 0x40] = {"chip_quick_charge", "toggle"},
+    [STARTING_ID + 0x41] = {"chip_speedster", "toggle"},
+    [STARTING_ID + 0x42] = {"chip_super_recover", "toggle"}
 }
