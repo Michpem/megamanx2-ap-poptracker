@@ -80,37 +80,13 @@ function set_ap_base_access(slot_data)
     --option_sub_tanks = 16
     --option_all = 31
 
-    if (slot_data['base_open']) then
-        local so = slot_data['base_open']
-        Tracker:FindObjectForCode("base_open").AcquiredCount = so
+    if (slot_data['x_hunter_base_open']) then
+        local so = slot_data['x_hunter_base_open']
+        Tracker:FindObjectForCode("x_hunter_base_open").AcquiredCount = so
         if (so & 1) > 0 then
-            set_if_exists(slot_data, 'base_medal_count')
+            set_if_exists(slot_data, 'x_hunter_base_medal_count')
         else
-            zero_item('base_medal_count')
-        end
-
-        if (so & 2) > 0 then
-            set_if_exists(slot_data, 'base_weapon_count')
-        else
-            zero_item('base_weapon_count')
-        end
-
-        if (so & 4) > 0 then
-            set_if_exists(slot_data, 'base_upgrade_count')
-        else
-            zero_item('base_upgrade_count')
-        end
-
-        if (so & 8) > 0 then
-            set_if_exists(slot_data, 'base_heart_tank_count')
-        else
-            zero_item('base_heart_tank_count')
-        end
-
-        if (so & 16) > 0 then
-            set_if_exists(slot_data, 'base_sub_tank_count')
-        else
-            zero_item('base_sub_tank_count')
+            zero_item('x_hunter_base_medal_count')
         end
     end
 end
@@ -178,16 +154,16 @@ function onClear(slot_data)
         end
     end
 
-    enable_progressive_if_exists(slot_data, 'pickupsanity')
+    enable_progressive_if_exists(slot_data, 'pickup_locations')
     enable_progressive_if_exists(slot_data, 'jammed_buster')
 
     set_ap_base_access(slot_data)
 
-    enable_progressive_if_exists(slot_data, 'base_all_levels')
+    enable_progressive_if_exists(slot_data, 'x_hunter_base_open')
     enable_if_exists(slot_data, 'logic_boss_weakness')
-    set_if_exists(slot_data, 'x_hunters_medal_count')
+    set_if_exists(slot_data, 'x_hunter_base_medal_count')
 
-    set_if_exists(slot_data, 'base_boss_rematch_count')
+    set_if_exists(slot_data, 'x_hunter_base_boss_rematch_count')
 
     Tracker:FindObjectForCode('boss_weakness_strictness').CurrentStage = slot_data['boss_weakness_strictness']
     enable_if_exists(slot_data, 'logic_boss_weakness')
@@ -214,14 +190,20 @@ function onClear(slot_data)
 		Archipelago:SetNotify({TAB_SWITCH_KEY})
 		Archipelago:Get({TAB_SWITCH_KEY})
 	end
-    BOSS_WEAKNESSES = slot_data['boss_weaknesses']
+    
+    for bossname, bossdata in pairs(slot_data['boss_data']) do
+        local weaknesses = {}
+        for index, weapon_id in ipairs(bossdata['weakness_by_id']) do
+            weaknesses[index] = weapon_id
+        end
+        BOSS_WEAKNESSES[bossname] = weaknesses
+    end
 
 end
 
 
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
-    local STARTING_ID = 0xBE0C00
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
     end
@@ -283,28 +265,28 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 
-    if item_id == STARTING_ID + 0x02 then
+    if item_id == 0x18 then
         set_stage_state_unlocked("wheel_gator_state")
     end
-    if item_id == STARTING_ID + 0x03 then
+    if item_id == 0x16 then
         set_stage_state_unlocked("bubble_crab_state")
     end
-    if item_id == STARTING_ID + 0x04 then
+    if item_id == 0x13 then
         set_stage_state_unlocked("flame_stag_state")
     end
-    if item_id == STARTING_ID + 0x05 then
+    if item_id == 0x11 then
         set_stage_state_unlocked("morph_moth_state")
     end
-    if item_id == STARTING_ID + 0x06 then
+    if item_id == 0x14 then
         set_stage_state_unlocked("magna_centipede_state")
     end
-    if item_id == STARTING_ID + 0x07 then
+    if item_id == 0x19 then
         set_stage_state_unlocked("crystal_snail_state")
     end
-    if item_id == STARTING_ID + 0x08 then
+    if item_id == 0x15 then
         set_stage_state_unlocked("overdrive_ostrich_state")
     end
-    if item_id == STARTING_ID + 0x09 then
+    if item_id == 0x10 then
         set_stage_state_unlocked("wire_sponge_state")
     end
     --if is_doppler_open() then
@@ -318,7 +300,7 @@ function onItem(index, item_id, item_name, player_number)
         set_stage_state_unlocked('serges_state')
         set_stage_state_unlocked('violen_state')
     end
-    if item_id == STARTING_ID + 0x1E then
+    if item_id == 0x0c then
         local arms = Tracker:FindObjectForCode("arms")
         if arms then
             arms.CurrentStage = arms.CurrentStage + 1
@@ -331,7 +313,26 @@ end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-    local STARTING_ID = 0xBE0C00
+    local X2 = 0x20000000
+
+    local CLEAR   = 0x00000000
+    local ENEMY   = 0x00010000
+
+    local INTRO   = 0x00000000
+    local GATOR   = 0x00300000
+    local CRAB    = 0x00800000
+    local STAG    = 0x00600000
+    local MOTH    = 0x00100000
+    local MAGNA   = 0x00700000
+    local SNAIL   = 0x00200000
+    local OSTRICH = 0x00500000
+    local SPONGE  = 0x00400000
+    local BASE1   = 0x00A00000
+    local BASE2   = 0x00B00000
+    local BASE3   = 0x00C00000
+    local BASE4   = 0x00D00000
+    local HUNTER  = 0x00F00000
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
     end
@@ -357,81 +358,81 @@ function onLocation(location_id, location_name)
     end
 
     --handle stage clear events
-    if location_id == STARTING_ID + 0x00C1 then
+    if location_id == X2 + CRAB + CLEAR + 0x02 then
         --local obj = Tracker:FindObjectForCode("bubble_crab_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("bubble_crab_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x00C5 then
+    if location_id == X2 + SNAIL + CLEAR + 0x00 then
         --local obj = Tracker:FindObjectForCode("crystal_snail_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("crystal_snail_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x00C2 then
+    if location_id == X2 + STAG + CLEAR + 0x0E then
         --local obj = Tracker:FindObjectForCode("flame_stag_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("flame_stag_state")
         state.CurrentStage = 2
     end
     
-    if location_id == STARTING_ID + 0x00C4 then
+    if location_id == X2 + MAGNA + CLEAR + 0x0C then
         --local obj = Tracker:FindObjectForCode("magna_centipede_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("magna_centipede_state")
         state.CurrentStage = 2
     end
     
-    if location_id == STARTING_ID + 0x00C3 then
+    if location_id == X2 + MOTH + CLEAR + 0x04 then
         --local obj = Tracker:FindObjectForCode("morph_moth_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("morph_moth_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x00C6 then
+    if location_id == X2 + OSTRICH + CLEAR + 0x08 then
         --local obj = Tracker:FindObjectForCode("overdrive_ostrich_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("overdrive_ostrich_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x00C0 then
+    if location_id == X2 + CLEAR + GATOR + 0x06 then
         --local obj = Tracker:FindObjectForCode("wheel_gator_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("wheel_gator_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x00C7 then
+    if location_id == X2 + SPONGE + CLEAR + 0x0A then
         --local obj = Tracker:FindObjectForCode("wire_sponge_cleared")
         --obj.Active = true
         local state = Tracker:FindObjectForCode("wire_sponge_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x0011 then
+    if location_id == X2 + BASE1 + ENEMY + 0x0B then
         local obj = Tracker:FindObjectForCode("base_1_cleared")
         obj.Active = true
     end
-    if location_id == STARTING_ID + 0x0012 then
+    if location_id == X2 + BASE2 + ENEMY + 0x0C then
         local obj = Tracker:FindObjectForCode("base_2_cleared")
         obj.Active = true
     end
-    if location_id == STARTING_ID + 0x0013 then
+    if location_id == X2 + BASE3 + ENEMY + 0x0D then
         local obj = Tracker:FindObjectForCode("base_3_cleared")
         obj.Active = true
     end
-    if location_id == STARTING_ID + 0x00C9 then
+    if location_id == X2 + BASE4 + CLEAR + 0x1F then
         local obj = Tracker:FindObjectForCode("base_4_cleared")
         obj.Active = true
     end
-    if location_id == STARTING_ID + 0x000E then
+    if location_id == X2 + HUNTER + ENEMY + 0x08 then
         local state = Tracker:FindObjectForCode("agile_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x000F then
+    if location_id == X2 + HUNTER + ENEMY + 0x09 then
         local state = Tracker:FindObjectForCode("serges_state")
         state.CurrentStage = 2
     end
-    if location_id == STARTING_ID + 0x0010 then
+    if location_id == X2 + HUNTER + ENEMY + 0x0A then
         local state = Tracker:FindObjectForCode("violen_state")
         state.CurrentStage = 2
     end

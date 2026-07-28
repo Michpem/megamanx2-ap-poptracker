@@ -135,18 +135,18 @@
                         "access_rules": []
                     },
                     {
-                        "name": "HP Pickup 2 (After X-Hunter room)",
+                        "name": "HP Pickup 3 (After X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [ 
 							"agile_state_1,$has_weakness_for|Agile", 
 							"serges_state_1,$has_weakness_for|Serges", 
 							"violen_state_1,$has_weakness_for|Violen",
-                            "$boss_other_damage_possible,[$boss_weaknesses_not_required]",
+                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
 							"[never],shoryuken,agile_state_1,serges_state_1,violen_state_1"
 						]
                     },
                     {
-                        "name": "HP Pickup 3 (Under crystal blocks before Magna Quartz)",
+                        "name": "HP Pickup 2 (Under crystal blocks before Magna Quartz)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": []
                     },
@@ -756,7 +756,10 @@
             },
             {
                 "name": "X Hunter Base Stage 2",
-                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
+                "access_rules": [
+                    "$is_base_open,base_1_cleared",
+                    "$is_base_two_and_three_and_four_open"
+                ],
                 "sections": [
                     {
                         "name": "HP Pickup (Behind Spin Wheel blocks)",
@@ -771,7 +774,8 @@
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
 							"legs,$can_charge,speed_burner,spin_wheel",
-							"[never],shoryuken,legs,$can_charge,speed_burner"
+							"[never],shoryuken,[legs],$can_charge,speed_burner",
+                            "[never],body,$can_charge,speed_burner,spin_wheel"
 						]
                     },
                     {
@@ -793,7 +797,10 @@
             },
             {
                 "name": "X Hunter Base Stage 3",
-                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
+                "access_rules": [
+                    "$is_base_open,base_2_cleared",
+                    "$is_base_two_and_three_and_four_open"
+                ],
                 "sections": [
                     {
                         "name": "HP Pickup 1 (In Strike Chain hole after start)",
@@ -878,7 +885,10 @@
             },
             {
                 "name": "X Hunter Base Stage 4",
-                "access_rules": ["$is_base_open,$is_base_two_and_three_and_four_open", "$is_base_open"],
+                "access_rules": [
+                    "$is_base_open,base_3_cleared",
+                    "$is_base_two_and_three_and_four_open"
+                ],
                 "sections": [
                     {
                         "name": "Bubble Crab Rematch",
@@ -970,9 +980,9 @@
                         ]
                     },
                     {
-                        "name": "Sigma",
+                        "name": "Neo Sigma",
                         "access_rules": [
-                            "$has_weakness_for|Sigma,$has_weakness_for|Sigma Virus",
+                            "$has_weakness_for|Neo Sigma,$has_weakness_for|Sigma Virus",
                             "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
 							"[never],shoryuken"
                         ]
@@ -1493,10 +1503,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 2 (After X-Hunter room)",
+                "name": "HP Pickup 3 (After X-Hunter room)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 2 (After X-Hunter room)"
+                        "ref": "Stages/Crystal Snail/HP Pickup 3 (After X-Hunter room)"
                     }
                 ],
                 "map_locations": [
@@ -1508,10 +1518,10 @@
                 ]
             },
             {
-                "name": "HP Pickup 3 (Under crystal blocks before Magna Quartz)",
+                "name": "HP Pickup 2 (Under crystal blocks before Magna Quartz)",
                 "sections": [
                     {
-                        "ref": "Stages/Crystal Snail/HP Pickup 3 (Under crystal blocks before Magna Quartz)"
+                        "ref": "Stages/Crystal Snail/HP Pickup 2 (Under crystal blocks before Magna Quartz)"
                     }
                 ],
                 "map_locations": [
@@ -2860,10 +2870,10 @@
                 ]
             },
             {
-                "name": "Sigma",
+                "name": "Neo Sigma",
                 "sections": [
                     {
-                        "ref": "Stages/X Hunter Base Stage 5/Sigma"
+                        "ref": "Stages/X Hunter Base Stage 5/Neo Sigma"
                     }
                 ],
                 "map_locations": [

@@ -1,6 +1,17 @@
 {
     "versions": [
 	    {
+			"package_version": "1.1.0",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.0/megamanx2-ap-poptracker.zip",
+            "sha256": "-",
+            "changelog": [
+				"Added support for apworld version 2.0",
+				"Added even more Enhancement Chips",
+				"Removed options that are no longer relevant",
+				"Fixed access rules for the X-Hunter Base"
+            ]
+		},
+	    {
 			"package_version": "1.0.5",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.0.5/megamanx2-ap-poptracker.zip",
             "sha256": "9f5a5bd0e77470179b2eb05dce12bd25854ba7facfa123cce8588ec82d4be06a",

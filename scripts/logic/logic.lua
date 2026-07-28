@@ -63,7 +63,7 @@ function base_codes_req_met()
 end
 function base_medals_req_met()
     local mavericks = Tracker:ProviderCountForCode("maverick_medal")
-    local mavericks_needed = Tracker:ProviderCountForCode("base_medal_count")
+    local mavericks_needed = Tracker:ProviderCountForCode("x_hunter_base_medal_count")
     return mavericks >= mavericks_needed
 end
 function base_weapons_req_met()
@@ -87,18 +87,24 @@ function base_sub_tanks_req_met()
     return sub_tanks >= sub_tanks_needed
 end
 function base_all_req_met()
-    return base_medals_req_met() and base_weapons_req_met() and base_upgrade_req_met() and base_heart_tanks_req_met() and base_sub_tanks_req_met()
+    return base_medals_req_met()
 end
 
 function is_base_open()
-    local allreqs = Tracker:ProviderCountForCode("base_sub_tank_count") + Tracker:ProviderCountForCode("base_heart_tank_count") + Tracker:ProviderCountForCode("base_upgrade_count") + Tracker:ProviderCountForCode("base_weapon_count") + Tracker:ProviderCountForCode("base_medal_count")
-
-    if allreqs == 0 then
-        return base_codes_req_met()
+    if base_codes_req_met() then
+        return true
     end
-    return base_all_req_met()
 
+    local base_open_option = Tracker:FindObjectForCode("x_hunter_base_open")
+    local base_mode = base_open_option and base_open_option.AcquiredCount or 0
+
+    if (base_mode & 1) == 0 then
+        return false
+    end
+
+    return base_medals_req_met()
 end
+
 -- function update_base_state()
 --     local basestate = Tracker:FindObjectForCode('base_state')
 --     if Tracker:FindObjectForCode('base_1_cleared').Active and Tracker:FindObjectForCode('base_2_cleared').Active and Tracker:FindObjectForCode('base_3_cleared').Active and Tracker:FindObjectForCode('base_4_cleared').Active then
@@ -110,8 +116,8 @@ end
 --     end
 -- end
 function is_base_two_and_three_and_four_open()
-    if Tracker:FindObjectForCode('base_all_levels').CurrentStage > 0 then
-        return Tracker:FindObjectForCode('base_state').CurrentStage > 0
+    if Tracker:FindObjectForCode('x_hunter_base_open').CurrentStage > 0 then
+        return is_base_open()
     end
     return false
 end
@@ -252,7 +258,7 @@ BOSS_WEAKNESSES = {
     ["Serges Tank"] =       {[1] = 27,[2] = 32,},
     ["Serges"] =            {[1] = 11,[2] = 20,},
     ["Sigma Virus"] =       {[1] = 12,[2] = 21,},
-    ["Sigma"] =             {[1] = 11,[2] = 20,},
+    ["Neo Sigma"] =         {[1] = 11,[2] = 20,},
     ["Violen"] =            {[1] = 8,[2] = 17,},
     ["Wheel Gator"] =       {[1] = 12,[2] = 21,},
     ["Wire Sponge"] =       {[1] = 11,[2] = 20,},

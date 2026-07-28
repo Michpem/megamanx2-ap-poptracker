@@ -12,12 +12,10 @@
                 "item_size": "200, 50",
                 "h_alignment": "left",
                 "rows": [
-                        ["pickupsanity", "base_medal_count"],
-                        ["jammed_buster", "base_weapon_count"],
-                        ["setting_weakness", "base_upgrade_count"],
-                        ["base_all_levels", "base_heart_tank_count"],
-                        ["boss_weakness_strictness","base_sub_tank_count"],
-                        ["base_boss_rematch_count", "x_hunters_medal_count"]
+                        ["pickup_locations", "x_hunter_base_medal_count"],
+                        ["jammed_buster", "x_hunter_base_open"],
+                        ["boss_weakness_strictness", ""],
+                        ["x_hunter_base_boss_rematch_count", "x_hunters_medal_count"]
                     ]
             }
         ]
