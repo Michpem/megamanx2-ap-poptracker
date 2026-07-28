@@ -3,7 +3,7 @@
 	    {
 			"package_version": "1.1.0",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.0/megamanx2-ap-poptracker.zip",
-            "sha256": "-",
+            "sha256": "fda98427ddf19c347373894285d8b1dc00226addeb2240223bbaa63666df4ff9",
             "changelog": [
 				"Added support for apworld version 2.0",
 				"Added even more Enhancement Chips",
