@@ -141,7 +141,7 @@
 							"agile_state_1,$has_weakness_for|Agile", 
 							"serges_state_1,$has_weakness_for|Serges", 
 							"violen_state_1,$has_weakness_for|Violen",
-                            "$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+                            "agile_state_1,serges_state_1,violen_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
 							"[never],shoryuken,agile_state_1,serges_state_1,violen_state_1"
 						]
                     },
@@ -886,8 +886,7 @@
             {
                 "name": "X Hunter Base Stage 4",
                 "access_rules": [
-                    "$is_base_open,base_3_cleared",
-                    "$is_base_two_and_three_and_four_open"
+                    "base_1_cleared,base_2_cleared,base_3_cleared"
                 ],
                 "sections": [
                     {
