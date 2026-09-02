@@ -1,9 +1,17 @@
 {
     "versions": [
 	    {
+			"package_version": "1.1.2",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.2/megamanx2-ap-poptracker.zip",
+            "sha256": "-",
+            "changelog": [
+				"Changed yellow logic for 'Wheel Gator - Heart Tank' so that it doesn't expect any items"
+            ]
+		},
+	    {
 			"package_version": "1.1.1",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.1/megamanx2-ap-poptracker.zip",
-            "sha256": "-",
+            "sha256": "bd0204705afc34c3290703fd85ab03355989d1a7cf9be0d27b7feb89f0d09406",
             "changelog": [
 				"Fixed access rules for Crystal Snail HP Pickup 3",
 				"Updated access rules for X-Hunter Base 4 to match the apworld"

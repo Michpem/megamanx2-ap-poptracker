@@ -604,7 +604,7 @@
                     },
                     {
                         "name": "Heart Tank",
-                        "access_rules": ["$can_charge,speed_burner", "[$can_charge,speed_burner]", "[never],shoryuken"]
+                        "access_rules": ["$can_charge,speed_burner", "[never]"]
                     },
                     {
                         "name": "Weapon Energy Pickup (Ledge in left elevator exit)",
