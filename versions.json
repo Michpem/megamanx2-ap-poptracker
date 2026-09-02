@@ -3,7 +3,7 @@
 	    {
 			"package_version": "1.1.2",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.2/megamanx2-ap-poptracker.zip",
-            "sha256": "-",
+            "sha256": "f4b1c343d417b00acf1d58eaca9700d7786d7c4efd6cb95bd4c10f06da20c6f6",
             "changelog": [
 				"Changed yellow logic for 'Wheel Gator - Heart Tank' so that it doesn't expect any items"
             ]
