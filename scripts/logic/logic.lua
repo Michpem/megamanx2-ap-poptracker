@@ -149,7 +149,7 @@ end
 
 function are_hunters_open()
     local mavericks = Tracker:ProviderCountForCode("maverick_medal")
-    local mavericks_needed = Tracker:ProviderCountForCode("x_hunters_medal_count")
+    local mavericks_needed = Tracker:ProviderCountForCode("x_hunters_arena_medal_count")
     return mavericks >= mavericks_needed
 end
 

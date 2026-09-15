@@ -41,7 +41,7 @@
                     {
                         "name": "1-Up Pickup (Below Spin Wheel blocks before water section)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["spin_wheel"]
+                        "access_rules": ["spin_wheel","[never],body"]
                     },
                     {
                         "name": "HP Pickup 1 (Ledge before water section)",
@@ -422,7 +422,7 @@
                     },
                     {
                         "name": "Body Capsule",
-                        "access_rules": ["spin_wheel"]
+                        "access_rules": ["spin_wheel", "[never],body"]
                     },
                     {
                         "name": "1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1)",
@@ -524,7 +524,7 @@
                     {
                         "name": "HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
-                        "access_rules": ["spin_wheel", "[never],shoryuken"]
+                        "access_rules": ["spin_wheel", "[never],shoryuken", "[never],body"]
                     },
                     {
                         "name": "1-Up Pickup (Top-right ledge in outdoors bike section)",
@@ -557,7 +557,7 @@
                     },
                     {
                         "name": "Legs Capsule",
-                        "access_rules": ["spin_wheel", "[never],shoryuken"]
+                        "access_rules": ["spin_wheel", "[never],shoryuken", "[never],body"]
                     },
                     {
                         "name": "Overdrive Ostrich",
@@ -765,8 +765,7 @@
                         "name": "HP Pickup (Behind Spin Wheel blocks)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [
-							"spin_wheel",
-							"[never],shoryuken"
+							"spin_wheel", "[never],shoryuken", "[never],body"
 						]
                     },
                     {
@@ -775,7 +774,7 @@
                         "access_rules": [
 							"legs,$can_charge,speed_burner,spin_wheel",
 							"[never],shoryuken,[legs],$can_charge,speed_burner",
-                            "[never],body,$can_charge,speed_burner,spin_wheel"
+                            "[never],body,$can_charge,speed_burner,[spin_wheel]"
 						]
                     },
                     {
