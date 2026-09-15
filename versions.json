@@ -3,7 +3,7 @@
 	    {
 			"package_version": "1.1.3",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.3/megamanx2-ap-poptracker.zip",
-            "sha256": "-",
+            "sha256": "90816e0632773fe0c7a77987c02bfc082a8ca825fedb00eccb6e98a52c879837",
             "changelog": [
 				"Fixed issue with X-Hunters access not being read off slot_data",
 				"Added yellow logic for the Body Upgrade to locations blocked by Spin Wheel"
