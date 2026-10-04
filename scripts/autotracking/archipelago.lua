@@ -82,7 +82,7 @@ function set_ap_base_access(slot_data)
 
     if (slot_data['x_hunter_base_open']) then
         local so = slot_data['x_hunter_base_open']
-        Tracker:FindObjectForCode("x_hunter_base_open").AcquiredCount = so
+        Tracker:FindObjectForCode("base_open").AcquiredCount = so
         if (so & 1) > 0 then
             set_if_exists(slot_data, 'x_hunter_base_medal_count')
         else
@@ -159,10 +159,10 @@ function onClear(slot_data)
 
     set_ap_base_access(slot_data)
 
-    enable_progressive_if_exists(slot_data, 'x_hunter_base_open')
+    enable_progressive_if_exists(slot_data, 'x_hunter_base_level_unlock')
     enable_if_exists(slot_data, 'logic_boss_weakness')
     set_if_exists(slot_data, 'x_hunter_base_medal_count')
-
+    set_if_exists(slot_data, 'x_hunters_arena_medal_count')
     set_if_exists(slot_data, 'x_hunter_base_boss_rematch_count')
 
     Tracker:FindObjectForCode('boss_weakness_strictness').CurrentStage = slot_data['boss_weakness_strictness']

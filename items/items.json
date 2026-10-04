@@ -729,7 +729,7 @@
         "name": "X Hunter Base Open Logic AP",
         "type": "consumable",
         "initial_quantity": 0,
-        "codes": "is_base_open"
+        "codes": "base_open"
     },
     {
         "name": "X Hunter Base Medal Count",
@@ -823,13 +823,13 @@
         {
           "img": "images/settings/base_group_off.png",
           "name": "Group X Hunter Base Levels - Off",
-          "codes": "x_hunter_base_open,x_hunter_base_open_off",
+          "codes": "x_hunter_base_level_unlock,x_hunter_base_level_unlock_off",
           "inherit_codes": "false"
         },
         {
           "img": "images/settings/base_group_on.png",
           "name": "Group X Hunter Base Levels - On",
-          "codes": "x_hunter_base_open,x_hunter_base_open_on"
+          "codes": "x_hunter_base_level_unlock,x_hunter_base_level_unlock_on"
         }
       ]
     },
@@ -864,6 +864,6 @@
     "max_quantity": 8,
     "overlay_font_size": 26,
     "img": "images/settings/hunters_medals_count.png",
-    "codes": "x_hunters_medal_count"
+    "codes": "x_hunters_arena_medal_count"
   }
 ]

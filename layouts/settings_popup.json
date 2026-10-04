@@ -13,9 +13,9 @@
                 "h_alignment": "left",
                 "rows": [
                         ["pickup_locations", "x_hunter_base_medal_count"],
-                        ["jammed_buster", "x_hunter_base_open"],
+                        ["jammed_buster", "x_hunter_base_level_unlock"],
                         ["boss_weakness_strictness", ""],
-                        ["x_hunter_base_boss_rematch_count", "x_hunters_medal_count"]
+                        ["x_hunter_base_boss_rematch_count", "x_hunters_arena_medal_count"]
                     ]
             }
         ]

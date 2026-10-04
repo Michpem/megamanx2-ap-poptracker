@@ -66,41 +66,17 @@ function base_medals_req_met()
     local mavericks_needed = Tracker:ProviderCountForCode("x_hunter_base_medal_count")
     return mavericks >= mavericks_needed
 end
-function base_weapons_req_met()
-    local weapons = get_weapons_count()
-    local weapons_needed = Tracker:ProviderCountForCode("base_weapon_count")
-    return weapons >= weapons_needed
-end
-function base_upgrade_req_met()
-    local upgrades = get_upgrades_count()
-    local upgrades_needed = Tracker:ProviderCountForCode("base_upgrade_count")
-    return upgrades >= upgrades_needed
-end
-function base_heart_tanks_req_met()
-    local heart_tanks = Tracker:ProviderCountForCode("heart_tank")
-    local heart_tanks_needed = Tracker:ProviderCountForCode("base_heart_tank_count")
-    return heart_tanks >= heart_tanks_needed
-end
-function base_sub_tanks_req_met()
-    local sub_tanks = Tracker:ProviderCountForCode("sub_tank")
-    local sub_tanks_needed = Tracker:ProviderCountForCode("base_sub_tank_count")
-    return sub_tanks >= sub_tanks_needed
-end
-function base_all_req_met()
-    return base_medals_req_met()
-end
 
 function is_base_open()
     if base_codes_req_met() then
         return true
     end
 
-    local base_open_option = Tracker:FindObjectForCode("x_hunter_base_open")
-    local base_mode = base_open_option and base_open_option.AcquiredCount or 0
+    local base_open_option = Tracker:FindObjectForCode("base_open").AcquiredCount
 
-    if (base_mode & 1) == 0 then
+    if (base_open_option & 1) == 0 then
         return false
-    end
+    end 
 
     return base_medals_req_met()
 end
@@ -116,32 +92,32 @@ end
 --     end
 -- end
 function is_base_two_and_three_and_four_open()
-    if Tracker:FindObjectForCode('x_hunter_base_open').CurrentStage > 0 then
+    if Tracker:FindObjectForCode('x_hunter_base_level_unlock').CurrentStage > 0 then
         return is_base_open()
     end
     return false
 end
 
 function base_1_cleared()
-    if Tracker:FindObjectForCode("@Stages/X Hunter Stage 1/Neo Violen").AvailableChestCount == 0 then
+    if Tracker:FindObjectForCode("@Stages/X Hunter Base Stage 1/Neo Violen").AvailableChestCount == 0 then
         return true
     end
     return false
 end
 function base_2_cleared()
-    if Tracker:FindObjectForCode("@Stages/X Hunter Stage 2/Serges Tank").AvailableChestCount == 0 then
+    if Tracker:FindObjectForCode("@Stages/X Hunter Base Stage 2/Serges Tank").AvailableChestCount == 0 then
         return true
     end
     return false
 end
 function base_3_cleared()
-    if Tracker:FindObjectForCode("@Stages/X Hunter Stage 3/Agile Flyer").AvailableChestCount == 0 then
+    if Tracker:FindObjectForCode("@Stages/X Hunter Base Stage 3/Agile Flyer").AvailableChestCount == 0 then
         return true
     end
     return false
 end
 function base_4_cleared()
-    if Tracker:FindObjectForCode("@Stages/X Hunter Stage 4/Stage Clear").AvailableChestCount == 0 then
+    if Tracker:FindObjectForCode("@Stages/X Hunter Base Stage 4/Stage Clear").AvailableChestCount == 0 then
         return true
     end
     return false
@@ -154,7 +130,7 @@ function are_hunters_open()
 end
 
 function rematch_quota_met()
-    local quota = Tracker:ProviderCountForCode("base_boss_rematch_count")
+    local quota = Tracker:ProviderCountForCode("x_hunter_base_boss_rematch_count")
     --local count = Tracker:ProviderCountForCode("rematch_fights")
     local count = 0
     --print(string.format("refight quota: %i, refights done: %i", quota, count))
@@ -196,11 +172,6 @@ function print_debug_base()
     print("get_upgrades_count(): ", get_upgrades_count())
     print("base_codes_req_met(): ", base_codes_req_met())
     print("base_medals_req_met(): ", base_medals_req_met())
-    print("base_weapons_req_met(): ", base_weapons_req_met())
-    print("base_upgrade_req_met(): ", base_upgrade_req_met())
-    print("base_heart_tanks_req_met(): ", base_heart_tanks_req_met())
-    print("base_sub_tanks_req_met(): ", base_sub_tanks_req_met())
-    print("base_all_req_met(): ", base_all_req_met())
     print("is_base_open(): ", is_base_open())
     print("base_open object: ", Tracker:ProviderCountForCode("base_open"))
 end

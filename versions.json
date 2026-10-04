@@ -1,5 +1,14 @@
 {
     "versions": [
+    	    {
+			"package_version": "1.1.4",
+            "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.4/megamanx2-ap-poptracker.zip",
+            "sha256": "-",
+            "changelog": [
+				"Fixed issues with autotracking for Base access and X-Hunter boss access",
+                "Cleaned up some code related to the above"
+            ]
+		},
 	    {
 			"package_version": "1.1.3",
             "download_url": "https://github.com/Michpem/megamanx2-ap-poptracker/releases/download/1.1.3/megamanx2-ap-poptracker.zip",

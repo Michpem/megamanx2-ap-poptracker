@@ -138,11 +138,11 @@
                         "name": "HP Pickup 3 (After X-Hunter room)",
                         "visibility_rules": [ "pickupsanity_on" ],
                         "access_rules": [ 
-							"agile_state_1,$has_weakness_for|Agile", 
-							"serges_state_1,$has_weakness_for|Serges", 
-							"violen_state_1,$has_weakness_for|Violen",
-                            "agile_state_1,serges_state_1,violen_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],shoryuken,agile_state_1,serges_state_1,violen_state_1"
+							"$are_hunters_open,$has_weakness_for|Agile", 
+							"$are_hunters_open,$has_weakness_for|Serges", 
+							"$are_hunters_open,$has_weakness_for|Violen",
+                            "$are_hunters_open,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],shoryuken,$are_hunters_open"
 						]
                     },
                     {
@@ -757,7 +757,7 @@
             {
                 "name": "X Hunter Base Stage 2",
                 "access_rules": [
-                    "$is_base_open,base_1_cleared",
+                    "$is_base_open,$base_1_cleared",
                     "$is_base_two_and_three_and_four_open"
                 ],
                 "sections": [
@@ -797,7 +797,7 @@
             {
                 "name": "X Hunter Base Stage 3",
                 "access_rules": [
-                    "$is_base_open,base_2_cleared",
+                    "$is_base_open,$base_2_cleared",
                     "$is_base_two_and_three_and_four_open"
                 ],
                 "sections": [
@@ -885,7 +885,7 @@
             {
                 "name": "X Hunter Base Stage 4",
                 "access_rules": [
-                    "base_1_cleared,base_2_cleared,base_3_cleared"
+                    "$base_1_cleared,$base_2_cleared,$base_3_cleared"
                 ],
                 "sections": [
                     {
@@ -967,7 +967,7 @@
             },
             {
                 "name": "X Hunter Base Stage 5",
-                "access_rules": ["base_1_cleared,base_2_cleared,base_3_cleared,base_4_cleared"],
+                "access_rules": ["$base_1_cleared,$base_2_cleared,$base_3_cleared,$base_4_cleared"],
                 "sections": [
                     {
                         "name": "Zero",
@@ -1002,9 +1002,9 @@
                         "name": "Agile",
                         "hosted_item": "",
                         "access_rules": [
-							"agile_state_1,$has_weakness_for|Agile",
-							"serges_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],serges_state_1,shoryuken"
+							"$are_hunters_open,$has_weakness_for|Agile",
+							"$are_hunters_open,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],$are_hunters_open,shoryuken"
 						]
                     }
                 ],
@@ -1024,9 +1024,9 @@
                         "name": "Serges",
                         "hosted_item": "",
                         "access_rules": [
-							"serges_state_1,$has_weakness_for|Serges",
-							"serges_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],serges_state_1,shoryuken"
+							"$are_hunters_open,$has_weakness_for|Serges",
+							"$are_hunters_open,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],$are_hunters_open,shoryuken"
 						]
                     }
                 ],
@@ -1046,9 +1046,9 @@
                         "name": "Violen",
                         "hosted_item": "",
                         "access_rules": [
-							"violen_state_1,$has_weakness_for|Violen",
-							"violen_state_1,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
-							"[never],violen_state_1,shoryuken"
+							"$are_hunters_open,$has_weakness_for|Violen",
+							"$are_hunters_open,$boss_buster_damage_possible,[$boss_weaknesses_not_required]",
+							"[never],$are_hunters_open,shoryuken"
 						]
                     }
                 ],
